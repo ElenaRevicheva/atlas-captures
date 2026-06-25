@@ -1,0 +1,69 @@
+=== 2026-06-25T14:00:01Z UTC | 2026-06-25 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-06-25 (Panama) · 5 verticals · 137 rows already today
+[bd-browser] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=auto%20insurance&search_type=keyword_unordered: The operation was aborted due to timeout
+  [auto_insurance] google: 0 search ads
+  [auto_insurance] found=23 written=7 dupes=16
+  [solar] google: 0 search ads
+  [solar] found=20 written=1 dupes=19
+  [debt_finance] google: 5 search ads
+  [debt_finance] found=26 written=5 dupes=21
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=3 written=0 dupes=3
+[bd-browser] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=relocation%20language&search_type=keyword_unordered: The operation was aborted due to timeout
+[bd] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=relocation%20language&search_type=keyword_unordered: The operation was aborted due to timeout
+  [expat_language] no HTML for meta "relocation language"
+  [expat_language] google: 0 search ads
+  [expat_language] found=79 written=39 dupes=40
+ATLAS CAPTURE DONE · found=151 written=52 dupes=99 · jsonl=189 rows (153KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:2762440) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 189 ads → 26 angle/day cells · version=v1
+  dates: 2026-06-25
+  angle distribution: pain_point:51 urgency_scarcity:41 social_proof:26 transformation:26 fear_loss:25 novelty:10 curiosity_gap:5 authority:5
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-06-25 ══════
+
+  AUTO_INSURANCE
+    MOVE → 🟢 ENTER social_proof  (47/100, launch_proxy)
+      why: saturation 50% (3 advertisers) · 1 launched ≤30d (33% of lane) · adjacent to heating fear_loss (67% co-occurrence)
+      avoid: fear_loss
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE urgency_scarcity  (37/100, saturation_only)
+      why: saturation 8% (1 advertisers)
+
+  EXPAT_LANGUAGE
+    MOVE → 🟡 WATCH curiosity_gap  (76/100, launch_proxy)
+      why: saturation 11% (3 advertisers) · 3 launched ≤30d (100% of lane)
+      avoid: urgency_scarcity
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE authority  (20/100, saturation_only)
+      why: saturation 50% (1 advertisers)
+
+  SOLAR
+    MOVE → ⚪ STABLE fear_loss  (34/100, launch_proxy)
+      why: saturation 14% (1 advertisers)
+
+  ⌐ Atlas shrugs — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 5 verticals · wrote data/brief.json + data/brief.md
+(node:2762467) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2762474) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-06-25 ══════
+  OPEN WINDOW: curiosity_gap (76/100, launch_proxy)
+  grounded in 3 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Overheard Sentence  [owns: curiosity]
+  HOOK:    She understood every word they said about her — and said nothing.
+  HEAD:    What happens when they stop knowing you can't?
+  BODY:    One week in Medellín, Rosa's neighbors assumed she was clueless. By week three, she wasn't. EspaLuz — the bilingual tutor already inside WhatsApp, built for expat families who refuse to stay lost.
+  SCENE:   A warm-toned split-frame: left side shows a confident American woman at a sunlit Colombian café table, eyes sharp and quietly amused while locals chat around her; right side is her phone screen glowing with a WhatsApp conversation in both Spanish and English, mid-lesson — no textbook, no classroom, just her and the language.
+  CTA:     Start your first lesson free →
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
