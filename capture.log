@@ -67,3 +67,10 @@ ATLAS BRIEF DONE · 5 verticals · wrote data/brief.json + data/brief.md
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
+[main 402b709] snapshot 2026-06-25
+ 2 files changed, 176 insertions(+)
+ create mode 100644 capture.log
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   d9c96dc..402b709  HEAD -> main
+backup pushed
+=== 2026-06-25T14:12:17Z : done ===
