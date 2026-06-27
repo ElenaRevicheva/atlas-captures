@@ -74,3 +74,85 @@ To https://github.com/ElenaRevicheva/atlas-captures.git
    d9c96dc..402b709  HEAD -> main
 backup pushed
 === 2026-06-25T14:12:17Z : done ===
+=== 2026-06-27T14:24:30Z UTC | 2026-06-27 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-06-27 (Panama) · 5 verticals · 0 rows already today
+[bd-meta] Browser API OK (1832599 bytes)
+  [solar] meta-scrape: 21 ads for "solar panels"
+  [solar] google: 0 search ads
+  [solar] found=21 written=20 dupes=1
+[bd-meta] Browser API OK (1977219 bytes)
+  [auto_insurance] meta-scrape: 23 ads for "auto insurance"
+  [auto_insurance] google: 1 search ads
+  [auto_insurance] found=24 written=19 dupes=5
+[bd-meta] Browser API OK (1647802 bytes)
+  [debt_finance] meta-scrape: 21 ads for "debt relief"
+  [debt_finance] google: 0 search ads
+  [debt_finance] found=21 written=12 dupes=9
+[bd-meta] Browser API OK (2307739 bytes)
+  [health_supplements] meta-scrape: 3 ads for "health supplement"
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=3 written=3 dupes=0
+[bd-meta] Browser API OK (2037199 bytes)
+  [expat_language] meta-scrape: 30 ads for "learn spanish"
+[bd-meta] Browser API OK (1987825 bytes)
+  [expat_language] meta-scrape: 13 ads for "move abroad spanish"
+[bd-meta] Browser API OK (1962257 bytes)
+  [expat_language] meta-scrape: 0 ads for "spanish for expats"
+[bd-meta] Browser API OK (3976360 bytes)
+  [expat_language] meta-scrape: 1 ads for "relocation language"
+  [expat_language] google: 0 search ads
+  [expat_language] found=44 written=41 dupes=3
+ATLAS CAPTURE DONE · found=113 written=95 dupes=18 · jsonl=387 rows (315KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:3260788) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 387 ads → 70 angle/day cells · version=v1
+  dates: 2026-06-25, 2026-06-26, 2026-06-27
+  angle distribution: pain_point:110 urgency_scarcity:87 transformation:55 social_proof:47 fear_loss:45 novelty:24 curiosity_gap:10 authority:9
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-06-27 ══════
+
+  AUTO_INSURANCE
+    MOVE → ⚪ STABLE curiosity_gap  (33/100, saturation_only)
+      why: saturation 17% (1 advertisers)
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE pain_point  (0/100, saturation_only)
+      why: saturation 100% (11 advertisers)
+
+  EXPAT_LANGUAGE
+    MOVE → ⚪ STABLE authority  (38/100, launch_proxy)
+      why: saturation 5% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE authority  (20/100, launch_proxy)
+      why: saturation 50% (1 advertisers)
+      avoid: transformation
+
+  SOLAR
+    MOVE → ⚪ STABLE social_proof  (33/100, saturation_only)
+      why: saturation 17% (1 advertisers)
+
+  ⌐ Atlas shifted — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 5 verticals · wrote data/brief.json + data/brief.md
+(node:3260815) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Telegram: Atlas daily brief sent ✓
+(node:3260826) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-06-27 ══════
+  OPEN WINDOW: authority (38/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Insider Briefing  [owns: confidence]
+  HOOK:    Every expat family that moved to Mexico City without Spanish said the same thing in week one — 'nobody told us this.'
+  HEAD:    The Spanish no textbook teaches expats
+  BODY:    EspaLuz guides bilingual families through 21 Spanish-speaking countries — not just the language, but the landlord negotiations, the school enrollment calls, the pharmacy moments at midnight. Authority built one real conversation at a time.
+  SCENE:   A warm, softly lit kitchen table in a Latin American apartment — a North American mother holds her phone showing a WhatsApp chat in Spanish, smiling with quiet relief, while her two children eat breakfast in the background; morning light streams through open shutters onto terracotta walls.
+  CTA:     Get Your Free Relocation Briefing
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
