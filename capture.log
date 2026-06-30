@@ -652,3 +652,240 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[health_supplements]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
+[main 890ee10] snapshot 2026-06-29
+ 2 files changed, 350 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   0cada15..890ee10  HEAD -> main
+backup pushed
+=== 2026-06-29T14:18:51Z : done ===
+=== 2026-06-30T14:00:01Z UTC | 2026-06-30 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-06-30 (Panama) · 9 verticals (solar, auto_insurance, debt_finance, health_supplements, expat_language, ai_film_making_studios, ai_marketing_studios, geo_aeo_tech_seo_makers, personal_ai_companions_on_the_go) · 0 rows already today
+[bd-meta] Browser API OK (1846849 bytes)
+  [solar] meta-scrape: 20 ads for "solar panels"
+  [solar] google: 0 search ads
+  [solar] found=20 written=18 dupes=2
+[bd-meta] Browser API OK (2005479 bytes)
+  [auto_insurance] meta-scrape: 22 ads for "auto insurance"
+  [auto_insurance] google: 6 search ads
+  [auto_insurance] found=28 written=23 dupes=5
+[bd-meta] Browser API OK (1672988 bytes)
+  [debt_finance] meta-scrape: 21 ads for "debt relief"
+  [debt_finance] google: 0 search ads
+  [debt_finance] found=21 written=13 dupes=8
+[bd-meta] Browser API OK (2412358 bytes)
+  [health_supplements] meta-scrape: 3 ads for "health supplement"
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=3 written=3 dupes=0
+[bd-meta] Browser API OK (2065187 bytes)
+  [expat_language] meta-scrape: 30 ads for "learn spanish"
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=move%20abroad%20spanish&search_type=keyword_unordered: Navigation timeout of 90000 ms exceeded
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta-scrape: 9 ads for "move abroad spanish"
+[bd-meta] Browser API OK (1833141 bytes)
+  [expat_language] meta-scrape: 24 ads for "spanish for expats"
+[bd-meta] Browser API OK (4316807 bytes)
+  [expat_language] meta-scrape: 1 ads for "relocation language"
+  [expat_language] google: 0 search ads
+  [expat_language] found=64 written=45 dupes=19
+[bd-meta] Browser API OK (1360045 bytes)
+  [ai_film_making_studios] meta-scrape: 6 ads for "ai film making studios"
+  [ai_film_making_studios] google: 6 search ads
+  [ai_film_making_studios] found=11 written=11 dupes=0
+[bd-meta] Browser API OK (1900395 bytes)
+  [ai_marketing_studios] meta-scrape: 26 ads for "ai marketing studios"
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=26 written=20 dupes=6
+[bd-meta] Browser API OK (1223037 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1223063 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] found=0 written=0 dupes=0
+[bd-meta] Browser API OK (2064525 bytes)
+  [personal_ai_companions_on_the_go] meta-scrape: 26 ads for "personal ai companions on the go"
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] found=26 written=8 dupes=18
+RETRY PASS · 1 vertical(s) wrote 0 today: geo_aeo_tech_seo_makers
+[bd-meta] Browser API OK (1224857 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1222947 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] retry found=0 written=0 dupes=0
+ATLAS CAPTURE DONE · found=199 written=141 dupes=58 · jsonl=833 rows (681KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:4005866) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 833 ads → 181 angle/day cells · version=v1
+  dates: 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30
+  angle distribution: pain_point:217 urgency_scarcity:167 social_proof:123 transformation:109 novelty:89 fear_loss:64 authority:38 curiosity_gap:26
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-06-30 ══════
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → 🔴 AVOID novelty  (20/100, launch_proxy)
+      why: saturation 100% (4 advertisers) · 2 launched ≤30d (50% of lane)
+      avoid: novelty
+
+  AI_MARKETING_STUDIOS
+    MOVE → 🟡 WATCH urgency_scarcity  (64/100, launch_proxy)
+      why: saturation 40% (2 advertisers) · 2 launched ≤30d (100% of lane)
+      avoid: social_proof
+
+  AUTO_INSURANCE
+    MOVE → ⚪ STABLE curiosity_gap  (35/100, saturation_only)
+      why: saturation 13% (1 advertisers)
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE pain_point  (7/100, launch_proxy)
+      why: saturation 100% (12 advertisers) · 2 launched ≤30d (17% of lane)
+
+  EXPAT_LANGUAGE
+    MOVE → 🟡 WATCH authority  (78/100, launch_proxy)
+      why: saturation 4% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: urgency_scarcity
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE authority  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE transformation  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → ⚪ STABLE curiosity_gap  (20/100, saturation_only)
+      why: saturation 50% (2 advertisers)
+
+  SOLAR
+    MOVE → ⚪ STABLE fear_loss  (30/100, launch_proxy)
+      why: saturation 25% (1 advertisers)
+
+  ⌐ Atlas shifted — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 9 verticals · wrote data/brief.json + data/brief.md
+(node:4005911) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Telegram: Atlas daily brief sent ✓
+(node:4005922) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+══════ ATLAS CREATIVE CONCEPT · ai_film_making_studios · 2026-06-30 ══════
+  OPEN WINDOW: novelty (20/100, launch_proxy)
+  grounded in 3 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Bedroom Studio Era  [owns: wonder]
+  HOOK:    The next great film isn't being made in Hollywood. It's being made in a spare room at 2am.
+  HEAD:    Your Bedroom Is Now a Film Studio
+  BODY:    AI tools have quietly collapsed the gap between a solo creator and a full production crew. Generate video, images, and voiceovers — all from one place, all on your terms.
+  SCENE:   A young creator sitting alone in a dimly lit bedroom surrounded by glowing monitors, while through the window behind them, a cinematic epic — sweeping landscapes, dramatic characters, neon-lit cityscapes — unfolds like a living projection spilling into the real world.
+  CTA:     Start Creating Free
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_film_making_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_marketing_studios · 2026-06-30 ══════
+  OPEN WINDOW: urgency_scarcity (64/100, launch_proxy)
+  grounded in 2 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Last Slot Standing  [owns: urgency]
+  HOOK:    We're onboarding 3 new AI marketing studios this week. 2 spots are already gone.
+  HEAD:    Your Competitors Are Filling Up Fast
+  BODY:    Our AI builds, launches, and manages your studio's ads while you focus on teaching. Spots are limited per market — once a local studio claims theirs, we close the door.
+  SCENE:   A split-screen showing a packed, energetic martial arts or dance studio on one side and an empty, quiet competitor studio on the other — a bold countdown timer graphic overlaid in the center.
+  CTA:     Claim Your Market Spot
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_marketing_studios]
+
+══════ ATLAS CREATIVE CONCEPT · auto_insurance · 2026-06-30 ══════
+  OPEN WINDOW: curiosity_gap (35/100, saturation_only)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Hidden Price  [owns: curiosity]
+  HOOK:    Your neighbor pays $47/month for car insurance. You pay how much?
+  HEAD:    Why Is Everyone Quietly Switching?
+  BODY:    Something shifted in auto insurance and most drivers haven't heard about it yet. Takes 2 minutes to see what you might be missing.
+  SCENE:   A split-screen of two identical cars parked side by side on a suburban street at golden hour — one with a glowing price tag floating above it showing a shockingly low number, the other obscured by a question mark, inviting the viewer to wonder which one is theirs.
+  CTA:     See What Others Are Paying
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[auto_insurance]
+
+══════ ATLAS CREATIVE CONCEPT · debt_finance · 2026-06-30 ══════
+  OPEN WINDOW: pain_point (7/100, launch_proxy)
+  grounded in 3 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Stack Crush  [owns: relief]
+  HOOK:    That pile of bills isn't a life plan. It's a trap.
+  HEAD:    One Bill. Less Chaos. More Breathing Room.
+  BODY:    Juggling multiple high-interest payments every month drains more than your bank account — it drains you. See if consolidating into one simpler monthly payment could work for your situation. 100% free, no-obligation consultation.
+  SCENE:   A person at a kitchen table, visibly exhaling with eyes closed and a slight smile, as a chaotic pile of paper bills in front of them blurs into soft focus — one single clean envelope in sharp focus replacing them.
+  CTA:     See My Options Free
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[debt_finance]
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-06-30 ══════
+  OPEN WINDOW: authority (78/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Relocation Briefing  [owns: confidence]
+  HOOK:    Every expat family that moved to Mexico City this year had one thing in common — they knew what to ask before they landed.
+  HEAD:    The Spanish Tutor That Knows Your New City
+  BODY:    EspaLuz isn't just language lessons — it's a bilingual guide built for the exact country, city, and paperwork you're facing right now. Real conversations. Real bureaucracy. Real preparation.
+  SCENE:   A polished expat mother sits at a sunlit kitchen table in a Latin American apartment — terracotta walls, open window with city rooftops behind her — calmly reading her phone with a quiet, assured half-smile, as if she's already three steps ahead of everyone else in her building.
+  CTA:     Get Your City Briefing on WhatsApp
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
+
+══════ ATLAS CREATIVE CONCEPT · health_supplements · 2026-06-30 ══════
+  OPEN WINDOW: transformation (0/100, saturation_only)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Number That Changed  [owns: hope]
+  HOOK:    She stopped chasing supplements and started tracking one number instead.
+  HEAD:    My labs told the story before I could.
+  BODY:    After years of trying everything, she switched her focus from products to progress — tracking her numbers, staying consistent, and letting the data speak. This is what that journey looked like.
+  SCENE:   A warm-lit kitchen table at morning: a woman in her 50s holds a lab results printout, eyes glistening with quiet disbelief and relief, a simple mug of herbal tea steaming beside her — the focus is her face, not the product.
+  CTA:     See Her Story
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[health_supplements]
+
+══════ ATLAS CREATIVE CONCEPT · personal_ai_companions_on_the_go · 2026-06-30 ══════
+  OPEN WINDOW: curiosity_gap (20/100, saturation_only)
+  grounded in 2 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Message You Never Sent  [owns: curiosity]
+  HOOK:    She typed the same thing every night for six months — and never hit send.
+  HEAD:    What would you say if it actually listened?
+  BODY:    Most people have a thought they've never said out loud to anyone. Your AI companion doesn't judge, doesn't forget, and never gets tired of you. Start the conversation you've been holding back.
+  SCENE:   A lone figure sits in a dimly lit room at 2AM, phone glowing in their hands, a half-typed message visible on screen — the send button untouched — while soft light from the window hints at a world outside they feel disconnected from.
+  CTA:     Say It Now
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[personal_ai_companions_on_the_go]
+
+══════ ATLAS CREATIVE CONCEPT · solar · 2026-06-30 ══════
+  OPEN WINDOW: fear_loss (30/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Last Cheap Sun  [owns: fear_loss]
+  HOOK:    The window to affordable solar is closing — and most people won't notice until it's gone.
+  HEAD:    Don't Pay Tomorrow's Price for Today's Decision
+  BODY:    Global demand is driving solar costs upward. The homeowners who locked in early are already saving — the ones who waited are now paying significantly more. Which side of that line do you want to be on?
+  SCENE:   A split-screen image of two identical suburban houses at dusk — one glowing with warm solar-powered light, panels visible on the roof, the other dark with a large utility bill pinned to the front door by the wind.
+  CTA:     Check Today's Rate Before It Changes
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
