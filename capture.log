@@ -889,3 +889,264 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[personal_ai_companions_on_the_go]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
+[main a9796f2] snapshot 2026-06-30
+ 2 files changed, 378 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   890ee10..a9796f2  HEAD -> main
+backup pushed
+=== 2026-06-30T14:24:21Z : done ===
+=== 2026-07-01T14:00:01Z UTC | 2026-07-01 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-07-01 (Panama) · 10 verticals (solar, auto_insurance, debt_finance, health_supplements, expat_language, ai_augmented_product_building, ai_film_making_studios, ai_marketing_studios, geo_aeo_tech_seo_makers, personal_ai_companions_on_the_go) · 9 rows already today
+[bd-meta] Browser API OK (1815537 bytes)
+  [solar] meta-scrape: 20 ads for "solar panels"
+  [solar] google: 0 search ads
+  [solar] found=20 written=18 dupes=2
+[bd-meta] Browser API OK (1787574 bytes)
+  [auto_insurance] meta-scrape: 21 ads for "auto insurance"
+  [auto_insurance] google: 0 search ads
+  [auto_insurance] found=21 written=19 dupes=2
+[bd-meta] Browser API OK (1616234 bytes)
+  [debt_finance] meta-scrape: 21 ads for "debt relief"
+  [debt_finance] google: 0 search ads
+  [debt_finance] found=21 written=13 dupes=8
+[bd-meta] Browser API OK (2444631 bytes)
+  [health_supplements] meta-scrape: 3 ads for "health supplement"
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=3 written=3 dupes=0
+[bd-meta] Browser API OK (2042424 bytes)
+  [expat_language] meta-scrape: 24 ads for "learn spanish"
+[bd-meta] Browser API OK (2072910 bytes)
+  [expat_language] meta-scrape: 9 ads for "move abroad spanish"
+[bd-meta] Browser API OK (1837789 bytes)
+  [expat_language] meta-scrape: 24 ads for "spanish for expats"
+[bd-meta] Browser API OK (3831670 bytes)
+  [expat_language] meta-scrape: 1 ads for "relocation language"
+  [expat_language] google: 0 search ads
+  [expat_language] found=58 written=39 dupes=19
+[bd-meta] Browser API OK (1487886 bytes)
+  [ai_augmented_product_building] meta-scrape: 9 ads for "ai augmented product building"
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=9 written=4 dupes=5
+[bd-meta] Browser API OK (1342668 bytes)
+  [ai_film_making_studios] meta-scrape: 5 ads for "ai film making studios"
+  [ai_film_making_studios] google: 0 search ads
+  [ai_film_making_studios] found=4 written=4 dupes=0
+[bd-meta] Browser API OK (1939988 bytes)
+  [ai_marketing_studios] meta-scrape: 27 ads for "ai marketing studios"
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=27 written=20 dupes=7
+[bd-meta] Browser API OK (1214924 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1211805 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] found=0 written=0 dupes=0
+[bd-meta] Browser API OK (1881462 bytes)
+  [personal_ai_companions_on_the_go] meta-scrape: 23 ads for "personal ai companions on the go"
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] found=23 written=2 dupes=21
+RETRY PASS · 1 vertical(s) wrote 0 today: geo_aeo_tech_seo_makers
+[bd-meta] Browser API OK (1215507 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1214692 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] retry found=0 written=0 dupes=0
+ATLAS CAPTURE DONE · found=186 written=122 dupes=64 · jsonl=964 rows (796KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:55561) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 964 ads → 218 angle/day cells · version=v1
+  dates: 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30, 2026-07-01
+  angle distribution: pain_point:250 urgency_scarcity:193 social_proof:142 transformation:127 novelty:106 fear_loss:69 authority:46 curiosity_gap:31
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-07-01 ══════
+
+  AI_AUGMENTED_PRODUCT_BUILDING
+    MOVE → 🟡 WATCH pain_point  (67/100, launch_proxy)
+      why: saturation 33% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: authority, novelty, social_proof
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → ⚪ STABLE transformation  (20/100, launch_proxy)
+      why: saturation 50% (1 advertisers)
+      avoid: novelty
+
+  AI_MARKETING_STUDIOS
+    MOVE → 🟡 WATCH urgency_scarcity  (64/100, launch_proxy)
+      why: saturation 40% (2 advertisers) · 2 launched ≤30d (100% of lane)
+      avoid: social_proof, novelty
+
+  AUTO_INSURANCE
+    MOVE → 🟡 WATCH social_proof  (50/100, launch_proxy)
+      why: saturation 25% (2 advertisers) · 1 launched ≤30d (50% of lane)
+
+  DEBT_FINANCE
+    MOVE → 🟡 WATCH transformation  (76/100, launch_proxy)
+      why: saturation 9% (1 advertisers) · 1 launched ≤30d (100% of lane)
+
+  EXPAT_LANGUAGE
+    MOVE → ⚪ STABLE social_proof  (41/100, launch_proxy)
+      why: saturation 22% (4 advertisers) · 1 launched ≤30d (25% of lane)
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE authority  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → 🔴 AVOID curiosity_gap  (40/100, launch_proxy)
+      why: saturation 100% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: curiosity_gap
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → 🔴 AVOID curiosity_gap  (40/100, launch_proxy)
+      why: saturation 100% (2 advertisers) · 2 launched ≤30d (100% of lane)
+      avoid: curiosity_gap
+
+  SOLAR
+    MOVE → ⚪ STABLE social_proof  (33/100, saturation_only)
+      why: saturation 17% (1 advertisers)
+
+  ⌐ Atlas shifted — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 10 verticals · wrote data/brief.json + data/brief.md
+(node:55590) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Telegram: Atlas daily brief sent ✓
+(node:55650) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+══════ ATLAS CREATIVE CONCEPT · ai_augmented_product_building · 2026-07-01 ══════
+  OPEN WINDOW: pain_point (67/100, launch_proxy)
+  grounded in 2 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Effort Trap  [owns: frustration]
+  HOOK:    You're working just as hard as the person making 100x more. That's not a hustle problem — that's a model problem.
+  HEAD:    Same hours. Wrong product. Painful math.
+  BODY:    Most builders are optimizing execution while ignoring the single variable that determines whether AI tools compound your income or just your to-do list. The gap isn't effort — it's what you're building toward.
+  SCENE:   A split-screen overhead shot: on the left, a cluttered desk drowning in sticky notes, a dim lamp, and a laptop showing a $12 transaction notification; on the right, the same desk, clean and minimal, same laptop, same person — but the screen glows with a $1,200 notification, coffee still warm, work done.
+  CTA:     See the difference
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_augmented_product_building]
+
+══════ ATLAS CREATIVE CONCEPT · ai_film_making_studios · 2026-07-01 ══════
+  OPEN WINDOW: transformation (20/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: One Person Studio  [owns: empowerment]
+  HOOK:    You don't need a crew. You need a system.
+  HEAD:    Film. Edit. Post. All By Yourself.
+  BODY:    Most people stay invisible because they think they need more gear, more help, or more time. What they actually need is a repeatable solo workflow that fits inside a single room.
+  SCENE:   A lone creator in a warmly lit minimal home studio — one camera on a tripod, soft key light glowing, laptop open on an edit — looking calm and completely in control, mid-recording, no chaos, just quiet confidence.
+  CTA:     Build Your Solo System
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_film_making_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_marketing_studios · 2026-07-01 ══════
+  OPEN WINDOW: urgency_scarcity (64/100, launch_proxy)
+  grounded in 2 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Last Slot Standing  [owns: urgency]
+  HOOK:    We're only onboarding 3 new AI marketing studios this month — and 2 spots are already gone.
+  HEAD:    Your Studio's AI Growth Engine — Almost Full
+  BODY:    While you're posting manually, other studios in your area are running AI-built campaigns 24/7, filling classes while they sleep. Claim your free 7-day trial before the last spot closes — no card required, no setup fee, just results.
+  SCENE:   A glowing digital dashboard showing a live class enrollment counter ticking upward in real time, displayed on a sleek monitor inside a dimly lit, modern dance or martial arts studio at night — one flickering 'LAST SPOT' badge pulsing in the corner.
+  CTA:     Claim My Free Trial Now
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_marketing_studios]
+
+══════ ATLAS CREATIVE CONCEPT · auto_insurance · 2026-07-01 ══════
+  OPEN WINDOW: social_proof (50/100, launch_proxy)
+  grounded in 2 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Quiet Million  [owns: validation]
+  HOOK:    Over 1 million drivers already made the switch. What do they know that you don't?
+  HEAD:    The Smart Switch Other Drivers Made
+  BODY:    Millions of drivers compared their rates and found they were overpaying — some by a lot. Takes 2 minutes to see if you're one of them.
+  SCENE:   A mosaic of real-feeling everyday drivers — a nurse in scrubs, a dad buckling a car seat, a college student with a coffee — each shown in a warm candid moment beside their car, subtly overlaid with a rising counter graphic hitting '1,000,000+ drivers compared'
+  CTA:     See If You Qualify
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[auto_insurance]
+
+══════ ATLAS CREATIVE CONCEPT · debt_finance · 2026-07-01 ══════
+  OPEN WINDOW: transformation (76/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Turning Point  [owns: hope]
+  HOOK:    The version of you that isn't drowning in debt payments — that person is closer than you think.
+  HEAD:    Your Debt Doesn't Have to Define What's Next
+  BODY:    Thousands of people have explored debt relief options for credit card, medical, and personal loan debt — and found a clearer path forward. See what options may be available for your situation in minutes.
+  SCENE:   A person standing at the threshold of an open door — behind them is a dim, cluttered room symbolizing financial stress; ahead is a bright, sunlit open space suggesting possibility and forward momentum.
+  CTA:     See My Options
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[debt_finance]
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-07-01 ══════
+  OPEN WINDOW: social_proof (41/100, launch_proxy)
+  grounded in 3 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: First Conversation  [owns: pride]
+  HOOK:    She ordered groceries in Spanish on day 11. Her kids cried happy tears.
+  HEAD:    Real families. Real Spanish. Real life abroad.
+  BODY:    Hundreds of expat families are already navigating daily life in Spanish-speaking countries with EspaLuz on WhatsApp — one conversation at a time. No classroom. No pressure. Just real progress that shows up when it matters.
+  SCENE:   A warm, candid kitchen moment: a smiling expat mom holds her phone showing a WhatsApp chat in Spanish while her two kids laugh around a grocery bag on the counter — golden afternoon light, Latin American tile backsplash, feeling of ordinary triumph.
+  CTA:     Start Free on WhatsApp
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
+
+══════ ATLAS CREATIVE CONCEPT · health_supplements · 2026-07-01 ══════
+  OPEN WINDOW: curiosity_gap (40/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Waiting Room Secret  [owns: curiosity]
+  HOOK:    The cardiologist closed her laptop before I could read what she'd typed.
+  HEAD:    What She Didn't Say Changed Everything
+  BODY:    I sat there for 40 minutes rehearsing questions. She answered every one — except the one I didn't know to ask. This is what I finally figured out on my own.
+  SCENE:   A man in his late 50s sits alone in a sterile clinic waiting room, leaning forward with elbows on knees, staring at a folded piece of paper in his hands — the overhead fluorescent light casting a sharp shadow across his face, equal parts worried and determined.
+  CTA:     Read What I Found
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[health_supplements]
+
+══════ ATLAS CREATIVE CONCEPT · personal_ai_companions_on_the_go · 2026-07-01 ══════
+  OPEN WINDOW: curiosity_gap (40/100, launch_proxy)
+  grounded in 2 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Message That Changed Everything  [owns: curiosity]
+  HOOK:    She hadn't spoken to anyone in 3 days — until it responded like it actually knew her.
+  HEAD:    The AI that remembers what you never said
+  BODY:    Most apps forget you the moment you close them. This one picks up exactly where your thoughts left off — and asks the question you didn't know you needed.
+  SCENE:   A young woman alone in a dimly lit apartment at 2am, phone screen glowing on her face, a single chat message visible mid-scroll — her expression shifting from blank exhaustion to quiet, wide-eyed surprise.
+  CTA:     See what it says
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[personal_ai_companions_on_the_go]
+
+══════ ATLAS CREATIVE CONCEPT · solar · 2026-07-01 ══════
+  OPEN WINDOW: social_proof (33/100, saturation_only)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Neighbours Already Know  [owns: belonging]
+  HOOK:    Your street switched to solar. Here's what they said after 6 months.
+  HEAD:    Real Homes. Real Panels. Real Results.
+  BODY:    Hundreds of Cyprus homeowners have already made the move — from Paralimni to Paphos. See what your neighbours are saying and get a free photo quote via WhatsApp in minutes.
+  SCENE:   A sun-drenched Cypriot neighbourhood street viewed from slightly above, showing three adjacent white-rendered houses each with gleaming solar panels on terracotta-tiled rooftops, neighbours casually chatting at the fence below, golden hour light, warm and communal mood.
+  CTA:     See Neighbour Reviews
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
