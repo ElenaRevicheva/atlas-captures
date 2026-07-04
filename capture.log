@@ -1696,3 +1696,292 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[medicare_advantage_enrollment]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
+[main 92c9a89] snapshot 2026-07-03
+ 2 files changed, 440 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   a846882..92c9a89  HEAD -> main
+backup pushed
+=== 2026-07-03T14:20:07Z : done ===
+=== 2026-07-04T14:00:01Z UTC | 2026-07-04 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-07-04 (Panama) · 11 verticals (solar, auto_insurance, debt_finance, health_supplements, expat_language, ai_augmented_product_building, ai_film_making_studios, ai_marketing_studios, geo_aeo_tech_seo_makers, medicare_advantage_enrollment, personal_ai_companions_on_the_go) · 0 rows already today
+[bd-meta] Browser API OK (1865956 bytes)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [solar] meta-scrape: 16 ads for "solar panels"
+  [solar] google: 0 search ads
+  [solar] found=16 written=16 dupes=0
+[bd-meta] Browser API OK (1975592 bytes)
+  [auto_insurance] meta-scrape: 23 ads for "auto insurance"
+  [auto_insurance] google: 6 search ads
+  [auto_insurance] found=29 written=24 dupes=5
+[bd-meta] Browser API OK (1671586 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [debt_finance] meta-scrape: 10 ads for "debt relief"
+  [debt_finance] google: 0 search ads
+  [debt_finance] found=10 written=10 dupes=0
+[bd-meta] Browser API OK (2450550 bytes)
+  [health_supplements] meta-scrape: 4 ads for "health supplement"
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=4 written=4 dupes=0
+[bd-meta] Browser API OK (2024768 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [expat_language] meta-scrape: 13 ads for "learn spanish"
+[bd-meta] Browser API OK (2059704 bytes)
+  [expat_language] meta-scrape: 8 ads for "move abroad spanish"
+[bd-meta] Browser API OK (1817327 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [expat_language] meta-scrape: 12 ads for "spanish for expats"
+[bd-meta] Browser API OK (4061236 bytes)
+  [expat_language] meta-scrape: 0 ads for "relocation language"
+  [expat_language] google: 0 search ads
+  [expat_language] found=33 written=27 dupes=6
+[bd-meta] Browser API OK (1411553 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [ai_augmented_product_building] meta-scrape: 7 ads for "ai augmented product building"
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=7 written=7 dupes=0
+[bd-meta] Browser API OK (1357919 bytes)
+  [ai_film_making_studios] meta-scrape: 5 ads for "ai film making studios"
+  [ai_film_making_studios] google: 6 search ads
+  [ai_film_making_studios] found=11 written=11 dupes=0
+[bd-meta] Browser API OK (1969236 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [ai_marketing_studios] meta-scrape: 14 ads for "ai marketing studios"
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=14 written=14 dupes=0
+[bd-meta] Browser API OK (1204254 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1203035 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] found=0 written=0 dupes=0
+[bd-meta] Browser API OK (1933656 bytes)
+  [medicare_advantage_enrollment] meta-scrape: 20 ads for "Medicare Advantage enrollment"
+  [medicare_advantage_enrollment] google: 0 search ads
+  [medicare_advantage_enrollment] found=20 written=17 dupes=3
+[bd-meta] Browser API OK (1559634 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [personal_ai_companions_on_the_go] meta-scrape: 0 ads for "personal ai companions on the go"
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] found=0 written=0 dupes=0
+RETRY PASS · 2 vertical(s) wrote 0 today: geo_aeo_tech_seo_makers, personal_ai_companions_on_the_go
+[bd-meta] Browser API OK (1202455 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1203588 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+[bd-serp-ads] error "compare GEO/AEO/Tech SEO makers": The operation was aborted due to timeout
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] retry found=0 written=0 dupes=0
+[bd-meta] Browser API OK (2157610 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [personal_ai_companions_on_the_go] meta-scrape: 0 ads for "personal ai companions on the go"
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] retry found=0 written=0 dupes=0
+ATLAS CAPTURE DONE · found=144 written=130 dupes=14 · jsonl=1382 rows (1123KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:843762) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 1382 ads → 349 angle/day cells · version=v1
+  dates: 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30, 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-04
+  angle distribution: pain_point:379 urgency_scarcity:266 social_proof:200 transformation:177 novelty:153 fear_loss:90 authority:77 curiosity_gap:40
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-07-04 ══════
+
+  AI_AUGMENTED_PRODUCT_BUILDING
+    MOVE → 🟡 WATCH novelty  (60/100, launch_proxy)
+      why: saturation 50% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: social_proof
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → ⚪ STABLE urgency_scarcity  (30/100, launch_proxy)
+      why: saturation 25% (1 advertisers)
+      avoid: novelty
+
+  AI_MARKETING_STUDIOS
+    MOVE → ⚪ STABLE urgency_scarcity  (32/100, saturation_only)
+      why: saturation 20% (1 advertisers)
+
+  AUTO_INSURANCE
+    MOVE → 🟢 ENTER fear_loss  (39/100, observed)
+      why: saturation 29% (2 advertisers) · 0 new in 7d · adjacent to heating pain_point (50% co-occurrence)
+      avoid: pain_point
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE pain_point  (11/100, observed)
+      why: saturation 100% (8 advertisers) · 2 new in 7d
+
+  EXPAT_LANGUAGE
+    MOVE → ⚪ STABLE curiosity_gap  (42/100, observed)
+      why: saturation 9% (1 advertisers) · 1 new in 7d
+      avoid: urgency_scarcity
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE authority  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE transformation  (20/100, observed)
+      why: saturation 50% (1 advertisers) · 0 new in 7d
+
+  MEDICARE_ADVANTAGE_ENROLLMENT
+    MOVE → ⚪ STABLE transformation  (33/100, saturation_only)
+      why: saturation 17% (1 advertisers)
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → 🔴 AVOID curiosity_gap  (40/100, launch_proxy)
+      why: saturation 100% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: curiosity_gap, transformation
+
+  SOLAR
+    MOVE → ⚪ STABLE transformation  (40/100, observed)
+      why: saturation 14% (1 advertisers) · 1 new in 7d
+      avoid: pain_point
+
+  ⌐ Atlas shifted — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 11 verticals · wrote data/brief.json + data/brief.md
+(node:843820) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Telegram: Atlas daily brief sent ✓
+(node:843831) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+
+══════ ATLAS CREATIVE CONCEPT · ai_augmented_product_building · 2026-07-04 ══════
+  OPEN WINDOW: novelty (60/100, launch_proxy)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: The Solo Creator's Playground  [owns: curiosity]
+  HOOK:    What if your next big idea was just a click away?
+  HEAD:    Unlock Your Creative Potential Today!
+  BODY:    Dive into the world of AI-augmented product building. Discover how you can turn your unique ideas into reality with just a few simple steps!
+  SCENE:   A vibrant workspace filled with colorful sketches and digital screens, showcasing a person enthusiastically brainstorming and creating innovative products.
+  CTA:     Explore Now
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_augmented_product_building]
+
+══════ ATLAS CREATIVE CONCEPT · ai_film_making_studios · 2026-07-04 ══════
+  OPEN WINDOW: urgency_scarcity (30/100, launch_proxy)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Limited Lens Legacy  [owns: excitement]
+  HOOK:    Unlock your filmmaking potential with this exclusive offer!
+  HEAD:    Claim Your Spot in Filmmaking History!
+  BODY:    Join the ranks of visionary filmmakers with our limited-time access to cutting-edge AI tools. Elevate your storytelling before the opportunity fades!
+  SCENE:   A dynamic shot of a filmmaker passionately directing a scene, surrounded by advanced AI technology, with a countdown timer subtly displayed in the corner.
+  CTA:     Join Now!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_film_making_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_marketing_studios · 2026-07-04 ══════
+  OPEN WINDOW: urgency_scarcity (32/100, saturation_only)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Last Chance Presets  [owns: urgency]
+  HOOK:    This is your final chance to elevate your photography!
+  HEAD:    Last Call for Our Exclusive Presets!
+  BODY:    Unlock the magic of your photos with our limited-edition presets. Available only for a few days—don't miss out!
+  SCENE:   A vibrant split-screen image showing before-and-after shots of a stunning landscape transformed by the presets.
+  CTA:     Grab Yours Now!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_marketing_studios]
+
+══════ ATLAS CREATIVE CONCEPT · auto_insurance · 2026-07-04 ══════
+  OPEN WINDOW: fear_loss (39/100, observed) · adjacent to heating pain_point
+  grounded in 5 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: The Cost of Regret  [owns: fear]
+  HOOK:    What if your insurance isn’t enough when it matters most?
+  HEAD:    Protect What Matters: Don’t Leave It to Chance
+  BODY:    Every day you wait could cost you more than just money. Ensure you're covered for the unexpected with our reliable auto insurance.
+  SCENE:   A worried parent looking at a car accident scene, holding their phone with an insurance app open, showing a low coverage amount.
+  CTA:     Get Your Free Quote Now
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[auto_insurance]
+
+══════ ATLAS CREATIVE CONCEPT · debt_finance · 2026-07-04 ══════
+  OPEN WINDOW: pain_point (11/100, observed)
+  grounded in 3 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Simplify Your Life  [owns: relief]
+  HOOK:    Imagine a life free from overwhelming bills!
+  HEAD:    Transform Multiple Bills into One Easy Payment
+  BODY:    Stop drowning in debt! Discover how consolidating your bills can lighten your load and bring peace of mind. Get started with a 100% free consultation today!
+  SCENE:   A serene living room where a relieved individual sits on a couch, smiling as they toss a stack of bills into a recycling bin.
+  CTA:     Get Your Free Consultation
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[debt_finance]
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-07-04 ══════
+  OPEN WINDOW: curiosity_gap (42/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Language Lifeline  [owns: curiosity]
+  HOOK:    What if your next conversation could be effortless?
+  HEAD:    Unlock effortless conversations abroad!
+  BODY:    EspaLuz transforms your language anxiety into confidence. Discover how our AI tutor can guide you through every step of your relocation journey.
+  SCENE:   A vibrant scene of a family joyfully interacting with locals in a bustling market, with speech bubbles illustrating their newfound language skills.
+  CTA:     Start your journey today!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
+
+══════ ATLAS CREATIVE CONCEPT · health_supplements · 2026-07-04 ══════
+  OPEN WINDOW: transformation (20/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: The Hidden Truth  [owns: hope]
+  HOOK:    What if the secret to better health was hidden in plain sight?
+  HEAD:    Unlock Your Body’s True Potential
+  BODY:    After years of searching for answers, I discovered a simple change that transformed my health. It’s time to reveal the truth that could change your life too.
+  SCENE:   A close-up of a person looking at their reflection in the mirror, a mix of surprise and hope on their face as they hold a bottle of the supplement.
+  CTA:     Discover the Secret
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[health_supplements]
+
+══════ ATLAS CREATIVE CONCEPT · medicare_advantage_enrollment · 2026-07-04 ══════
+  OPEN WINDOW: transformation (33/100, saturation_only)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Empowered Living  [owns: empowerment]
+  HOOK:    Transform your health journey with tailored coverage.
+  HEAD:    Your Health, Your Way: Medicare Advantage Awaits
+  BODY:    Experience a Medicare Advantage plan that adapts to your unique lifestyle and health needs. It's time to take control of your health journey.
+  SCENE:   A vibrant, active senior couple hiking in a scenic park, smiling and enjoying life, symbolizing freedom and vitality.
+  CTA:     Explore Your Options
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[medicare_advantage_enrollment]
+
+══════ ATLAS CREATIVE CONCEPT · solar · 2026-07-04 ══════
+  OPEN WINDOW: transformation (40/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Empowered Transformation  [owns: empowerment]
+  HOOK:    Transform your home, transform your life.
+  HEAD:    Unlock Your Home's True Potential with Solar Energy
+  BODY:    Experience the freedom of energy independence. With our solar solutions, your home becomes a powerhouse of clean energy, giving you control over your bills and your future.
+  SCENE:   A family joyfully interacting in their sunlit living room, surrounded by greenery, with solar panels visible through the window, symbolizing a bright, sustainable future.
+  CTA:     Start Your Transformation Today
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
