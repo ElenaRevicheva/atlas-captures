@@ -1985,3 +1985,377 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[medicare_advantage_enrollment]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
+[main a78d9b7] snapshot 2026-07-04
+ 2 files changed, 419 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   92c9a89..a78d9b7  HEAD -> main
+backup pushed
+=== 2026-07-04T14:18:38Z : done ===
+=== 2026-07-05T14:00:01Z UTC | 2026-07-05 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-07-05 (Panama) · 11 verticals (solar, auto_insurance, debt_finance, health_supplements, expat_language, ai_augmented_product_building, ai_film_making_studios, ai_marketing_studios, geo_aeo_tech_seo_makers, medicare_advantage_enrollment, personal_ai_companions_on_the_go) · 0 rows already today
+[bd-meta] Browser API OK (1857113 bytes)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [solar] meta-scrape: 13 ads for "solar panels"
+  [solar] google: 3 search ads
+  [solar] found=16 written=16 dupes=0
+[bd-meta] Browser API OK (1991545 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [auto_insurance] meta-scrape: 23 ads for "auto insurance"
+  [auto_insurance] google: 6 search ads
+  [auto_insurance] found=29 written=24 dupes=5
+[bd-meta] Browser API OK (1659781 bytes)
+  [debt_finance] meta-scrape: 12 ads for "debt relief"
+  [debt_finance] google: 1 search ads
+  [debt_finance] found=13 written=12 dupes=1
+[bd-meta] Browser API OK (2504000 bytes)
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+  [health_supplements] meta-scrape: 4 ads for "health supplement"
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=4 written=4 dupes=0
+[bd-meta] Browser API OK (2055521 bytes)
+  [expat_language] meta-scrape: 10 ads for "learn spanish"
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=move%20abroad%20spanish&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "move abroad spanish" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=move%20abroad%20spanish&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "move abroad spanish" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=move%20abroad%20spanish&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "move abroad spanish" attempt 3/3 — no usable HTML
+  [expat_language] no HTML for meta "move abroad spanish" after 3 attempts
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=spanish%20for%20expats&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "spanish for expats" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=spanish%20for%20expats&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "spanish for expats" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=spanish%20for%20expats&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "spanish for expats" attempt 3/3 — no usable HTML
+  [expat_language] no HTML for meta "spanish for expats" after 3 attempts
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=relocation%20language&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "relocation language" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=relocation%20language&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "relocation language" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=relocation%20language&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [expat_language] meta "relocation language" attempt 3/3 — no usable HTML
+  [expat_language] no HTML for meta "relocation language" after 3 attempts
+  [expat_language] google: 0 search ads
+  [expat_language] found=10 written=10 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 3/3 — no usable HTML
+  [ai_augmented_product_building] no HTML for meta "ai augmented product building" after 3 attempts
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20film%20making%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_film_making_studios] meta "ai film making studios" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20film%20making%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_film_making_studios] meta "ai film making studios" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20film%20making%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_film_making_studios] meta "ai film making studios" attempt 3/3 — no usable HTML
+  [ai_film_making_studios] no HTML for meta "ai film making studios" after 3 attempts
+  [ai_film_making_studios] google: 0 search ads
+  [ai_film_making_studios] found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20marketing%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_marketing_studios] meta "ai marketing studios" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20marketing%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_marketing_studios] meta "ai marketing studios" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20marketing%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_marketing_studios] meta "ai marketing studios" attempt 3/3 — no usable HTML
+  [ai_marketing_studios] no HTML for meta "ai marketing studios" after 3 attempts
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 3/3 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "GEO/AEO/Tech SEO makers" after 3 attempts
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 3/3 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "compare GEO/AEO/Tech SEO makers" after 3 attempts
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=Medicare%20Advantage%20enrollment&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [medicare_advantage_enrollment] meta "Medicare Advantage enrollment" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=Medicare%20Advantage%20enrollment&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [medicare_advantage_enrollment] meta "Medicare Advantage enrollment" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=Medicare%20Advantage%20enrollment&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [medicare_advantage_enrollment] meta "Medicare Advantage enrollment" attempt 3/3 — no usable HTML
+  [medicare_advantage_enrollment] no HTML for meta "Medicare Advantage enrollment" after 3 attempts
+  [medicare_advantage_enrollment] google: 0 search ads
+  [medicare_advantage_enrollment] found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=personal%20ai%20companions%20on%20the%20go&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [personal_ai_companions_on_the_go] meta "personal ai companions on the go" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=personal%20ai%20companions%20on%20the%20go&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [personal_ai_companions_on_the_go] meta "personal ai companions on the go" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=personal%20ai%20companions%20on%20the%20go&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [personal_ai_companions_on_the_go] meta "personal ai companions on the go" attempt 3/3 — no usable HTML
+  [personal_ai_companions_on_the_go] no HTML for meta "personal ai companions on the go" after 3 attempts
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] found=0 written=0 dupes=0
+RETRY PASS · 6 vertical(s) wrote 0 today: ai_augmented_product_building, ai_film_making_studios, ai_marketing_studios, geo_aeo_tech_seo_makers, medicare_advantage_enrollment, personal_ai_companions_on_the_go
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 3/3 — no usable HTML
+  [ai_augmented_product_building] no HTML for meta "ai augmented product building" after 3 attempts
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] retry found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20film%20making%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_film_making_studios] meta "ai film making studios" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20film%20making%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_film_making_studios] meta "ai film making studios" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20film%20making%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_film_making_studios] meta "ai film making studios" attempt 3/3 — no usable HTML
+  [ai_film_making_studios] no HTML for meta "ai film making studios" after 3 attempts
+  [ai_film_making_studios] google: 0 search ads
+  [ai_film_making_studios] retry found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20marketing%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_marketing_studios] meta "ai marketing studios" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20marketing%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_marketing_studios] meta "ai marketing studios" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20marketing%20studios&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [ai_marketing_studios] meta "ai marketing studios" attempt 3/3 — no usable HTML
+  [ai_marketing_studios] no HTML for meta "ai marketing studios" after 3 attempts
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] retry found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 3/3 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "GEO/AEO/Tech SEO makers" after 3 attempts
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 3/3 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "compare GEO/AEO/Tech SEO makers" after 3 attempts
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] retry found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=Medicare%20Advantage%20enrollment&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [medicare_advantage_enrollment] meta "Medicare Advantage enrollment" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=Medicare%20Advantage%20enrollment&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [medicare_advantage_enrollment] meta "Medicare Advantage enrollment" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=Medicare%20Advantage%20enrollment&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [medicare_advantage_enrollment] meta "Medicare Advantage enrollment" attempt 3/3 — no usable HTML
+  [medicare_advantage_enrollment] no HTML for meta "Medicare Advantage enrollment" after 3 attempts
+  [medicare_advantage_enrollment] google: 0 search ads
+  [medicare_advantage_enrollment] retry found=0 written=0 dupes=0
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=personal%20ai%20companions%20on%20the%20go&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [personal_ai_companions_on_the_go] meta "personal ai companions on the go" attempt 1/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=personal%20ai%20companions%20on%20the%20go&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [personal_ai_companions_on_the_go] meta "personal ai companions on the go" attempt 2/3 — no usable HTML
+[bd-browser-api] fetch error https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=personal%20ai%20companions%20on%20the%20go&search_type=keyword_unordered: Unexpected server response: 403
+[bd-meta] Browser API failed — falling back to Web Unlocker render
+  [personal_ai_companions_on_the_go] meta "personal ai companions on the go" attempt 3/3 — no usable HTML
+  [personal_ai_companions_on_the_go] no HTML for meta "personal ai companions on the go" after 3 attempts
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] retry found=0 written=0 dupes=0
+ATLAS CAPTURE DONE · found=72 written=66 dupes=6 · jsonl=1448 rows (1171KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:1096616) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 1448 ads → 367 angle/day cells · version=v1
+  dates: 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30, 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-04, 2026-07-05
+  angle distribution: pain_point:413 urgency_scarcity:279 social_proof:206 transformation:181 novelty:156 fear_loss:93 authority:79 curiosity_gap:41
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-07-05 ══════
+
+  AI_AUGMENTED_PRODUCT_BUILDING
+    MOVE → 🟡 WATCH novelty  (60/100, launch_proxy)
+      why: saturation 50% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: social_proof
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → ⚪ STABLE urgency_scarcity  (30/100, launch_proxy)
+      why: saturation 25% (1 advertisers)
+      avoid: novelty
+
+  AI_MARKETING_STUDIOS
+    MOVE → ⚪ STABLE urgency_scarcity  (32/100, saturation_only)
+      why: saturation 20% (1 advertisers)
+
+  AUTO_INSURANCE
+    MOVE → 🟢 ENTER urgency_scarcity  (41/100, observed)
+      why: saturation 43% (3 advertisers) · 2 new in 7d · adjacent to heating pain_point (33% co-occurrence)
+      avoid: pain_point
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE pain_point  (11/100, observed)
+      why: saturation 100% (11 advertisers) · 2 new in 7d
+
+  EXPAT_LANGUAGE
+    MOVE → ⚪ STABLE social_proof  (40/100, observed)
+      why: saturation 14% (1 advertisers) · 1 new in 7d
+      avoid: urgency_scarcity
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE authority  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE transformation  (20/100, observed)
+      why: saturation 50% (1 advertisers) · 0 new in 7d
+
+  MEDICARE_ADVANTAGE_ENROLLMENT
+    MOVE → ⚪ STABLE transformation  (33/100, saturation_only)
+      why: saturation 17% (1 advertisers)
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → 🔴 AVOID curiosity_gap  (40/100, launch_proxy)
+      why: saturation 100% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: curiosity_gap, transformation
+
+  SOLAR
+    MOVE → 🟡 WATCH urgency_scarcity  (44/100, observed)
+      why: saturation 50% (3 advertisers) · 3 new in 7d · adjacent to heating pain_point (33% co-occurrence)
+      avoid: pain_point
+
+  ⌐ Atlas shifted — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 11 verticals · wrote data/brief.json + data/brief.md
+(node:1096662) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Telegram: Atlas daily brief sent ✓
+(node:1096675) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+[llm] Groq text failed: 429 {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01ka9jba90eye8hs7t99q1vw62` service tie
+
+══════ ATLAS CREATIVE CONCEPT · auto_insurance · 2026-07-05 ══════
+  OPEN WINDOW: urgency_scarcity (41/100, observed) · adjacent to heating pain_point
+  grounded in 6 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Limited Time Savings  [owns: urgency]
+  HOOK:    Don’t miss out on exclusive savings before they vanish!
+  HEAD:    Unlock Your Exclusive Auto Insurance Discount Now!
+  BODY:    Act fast! Our limited-time offer means you could save big on auto insurance. Bundle now and see how much you can save before it’s too late!
+  SCENE:   A clock ticking down with a family happily reviewing their insurance savings on a laptop, surrounded by a cozy home environment.
+  CTA:     Get Your Quote Today!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[auto_insurance]
+
+══════ ATLAS CREATIVE CONCEPT · debt_finance · 2026-07-05 ══════
+  OPEN WINDOW: pain_point (11/100, observed)
+  grounded in 3 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Simplify Your Life  [owns: relief]
+  HOOK:    Drowning in bills? Let’s simplify your life!
+  HEAD:    One Bill, One Solution: Find Your Relief
+  BODY:    Imagine a life where you only have to manage one affordable monthly bill. Our expert team is here to help you navigate your debt with ease.
+  SCENE:   A person sitting at a kitchen table, surrounded by stacks of bills, looking overwhelmed, then transitioning to a calm scene with a single bill and a smile.
+  CTA:     Get Your Free Consultation
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[debt_finance]
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-07-05 ══════
+  OPEN WINDOW: social_proof (40/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Fluent Futures  [owns: Empowerment]
+  HOOK:    Unlock your potential with every conversation.
+  HEAD:    Join thousands who’ve transformed their lives!
+  BODY:    EspaLuz is your bilingual companion, guiding you through every step of your relocation. Experience the joy of connecting with your new community, one message at a time.
+  SCENE:   A smiling expat family gathered around a table, chatting effortlessly with local friends, with a phone showing the EspaLuz app on the side.
+  CTA:     Start your journey today!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
+
+══════ ATLAS CREATIVE CONCEPT · health_supplements · 2026-07-05 ══════
+  OPEN WINDOW: transformation (20/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: The Hidden Truth  [owns: hope]
+  HOOK:    What if the answer to your health struggle was hidden in plain sight?
+  HEAD:    Unlock Your Health Potential Today!
+  BODY:    After years of battling fatigue and frustration, I discovered the missing piece that transformed my health. Join me on this journey to uncover the truth that could change everything for you.
+  SCENE:   A person standing in a sunlit kitchen, holding a bottle of the supplement, looking energized and hopeful, surrounded by fresh fruits and vegetables.
+  CTA:     Discover Your Hidden Truth
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[health_supplements]
+
+══════ ATLAS CREATIVE CONCEPT · solar · 2026-07-05 ══════
+  OPEN WINDOW: urgency_scarcity (44/100, observed) · adjacent to heating pain_point
+  grounded in 6 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Solar Savings Countdown  [owns: urgency]
+  HOOK:    Time's running out! Secure your solar savings today!
+  HEAD:    Last Chance for Solar Savings!
+  BODY:    Don’t miss your opportunity to cut energy costs! Limited-time offers on solar kits are here, but they won’t last long.
+  SCENE:   A countdown timer overlaying a vibrant image of a family happily enjoying their solar-powered home.
+  CTA:     Claim Your Offer Now!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
