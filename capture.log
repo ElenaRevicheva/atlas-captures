@@ -5249,3 +5249,283 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[personal_ai_companions_on_the_go]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
+[main 34bb3ff] snapshot 2026-07-11
+ 2 files changed, 471 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   d532860..34bb3ff  HEAD -> main
+backup pushed
+=== 2026-07-11T14:26:19Z : done ===
+=== 2026-07-12T14:00:01Z UTC | 2026-07-12 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-07-12 (Panama) · 11 verticals (solar, auto_insurance, debt_finance, health_supplements, expat_language, ai_augmented_product_building, ai_film_making_studios, ai_marketing_studios, geo_aeo_tech_seo_makers, medicare_advantage_enrollment, personal_ai_companions_on_the_go) · 0 rows already today
+[bd-meta] Browser API OK (1818162 bytes)
+  [solar] meta-scrape: 18 ads for "solar panels"
+  [solar] google: 0 search ads
+  [solar] found=18 written=16 dupes=2
+[bd-meta] Browser API OK (1912013 bytes)
+  [auto_insurance] meta-scrape: 23 ads for "auto insurance"
+  [auto_insurance] google: 4 search ads
+  [auto_insurance] found=27 written=23 dupes=4
+[bd-meta] Browser API OK (1693097 bytes)
+  [debt_finance] meta-scrape: 22 ads for "debt relief"
+  [debt_finance] google: 0 search ads
+  [debt_finance] found=22 written=12 dupes=10
+[bd-meta] Browser API OK (2527996 bytes)
+  [health_supplements] meta-scrape: 3 ads for "health supplement"
+  [health_supplements] google: 0 search ads
+  [health_supplements] found=3 written=3 dupes=0
+[bd-meta] Browser API OK (2048221 bytes)
+  [expat_language] meta-scrape: 30 ads for "learn spanish"
+[bd-meta] Browser API OK (2479237 bytes)
+  [expat_language] meta-scrape: 4 ads for "move abroad spanish"
+[bd-meta] Browser API OK (2003736 bytes)
+  [expat_language] meta-scrape: 30 ads for "spanish for expats"
+[bd-meta] Browser API OK (3612609 bytes)
+  [expat_language] meta-scrape: 4 ads for "relocation language"
+  [expat_language] google: 0 search ads
+  [expat_language] found=68 written=56 dupes=12
+[bd-meta] Browser API OK (1476728 bytes)
+  [ai_augmented_product_building] meta-scrape: 6 ads for "ai augmented product building"
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=6 written=6 dupes=0
+[bd-meta] Browser API OK (1455552 bytes)
+  [ai_film_making_studios] meta-scrape: 10 ads for "ai film making studios"
+  [ai_film_making_studios] google: 2 search ads
+  [ai_film_making_studios] found=11 written=9 dupes=2
+[bd-meta] Browser API OK (1977324 bytes)
+  [ai_marketing_studios] meta-scrape: 21 ads for "ai marketing studios"
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=21 written=16 dupes=5
+[bd-meta] Browser API OK (1203930 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+[bd-meta] Browser API OK (1200214 bytes)
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 2 search ads
+  [geo_aeo_tech_seo_makers] found=2 written=2 dupes=0
+[bd-meta] Browser API OK (1935875 bytes)
+  [medicare_advantage_enrollment] meta-scrape: 23 ads for "Medicare Advantage enrollment"
+  [medicare_advantage_enrollment] google: 0 search ads
+  [medicare_advantage_enrollment] found=23 written=20 dupes=3
+[bd-meta] Browser API OK (2094264 bytes)
+  [personal_ai_companions_on_the_go] meta-scrape: 22 ads for "personal ai companions on the go"
+  [personal_ai_companions_on_the_go] google: 0 search ads
+  [personal_ai_companions_on_the_go] found=22 written=20 dupes=2
+ATLAS CAPTURE DONE · found=223 written=183 dupes=40 · jsonl=2076 rows (1699KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:3014251) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] embeddings 500: {
+  "error": {
+    "message": "The server had an error while processing your request. Sorry about that!",
+    "type": "s
+Error: failed to embed captured ads (OpenAI embeddings unavailable)
+    at main (file:///home/ubuntu/whitespace/dist/classify.js:118:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+══════ ATLAS DAILY BRIEF · 2026-07-11 ══════
+
+  AI_AUGMENTED_PRODUCT_BUILDING
+    MOVE → ⚪ STABLE authority  (30/100, observed)
+      why: saturation 25% (1 advertisers) · 0 new in 7d
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → ⚪ STABLE urgency_scarcity  (32/100, observed)
+      why: saturation 33% (1 advertisers) · 1 new in 7d
+
+  AI_MARKETING_STUDIOS
+    MOVE → ⚪ STABLE pain_point  (36/100, observed)
+      why: saturation 25% (1 advertisers) · 1 new in 7d
+
+  AUTO_INSURANCE
+    MOVE → ⚪ STABLE curiosity_gap  (30/100, observed)
+      why: saturation 25% (1 advertisers) · 0 new in 7d
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE authority  (37/100, launch_proxy)
+      why: saturation 8% (1 advertisers)
+      avoid: pain_point
+
+  EXPAT_LANGUAGE
+    MOVE → 🟡 WATCH social_proof  (67/100, observed)
+      why: saturation 32% (8 advertisers) · 7 new in 7d
+      avoid: urgency_scarcity
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE social_proof  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE authority  (20/100, observed)
+      why: saturation 50% (1 advertisers) · 0 new in 7d
+
+  MEDICARE_ADVANTAGE_ENROLLMENT
+    MOVE → ⚪ STABLE authority  (33/100, observed)
+      why: saturation 17% (1 advertisers) · 0 new in 7d
+      avoid: pain_point
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → 🟡 WATCH transformation  (47/100, launch_proxy)
+      why: saturation 50% (3 advertisers) · 2 launched ≤30d (67% of lane)
+      avoid: social_proof, urgency_scarcity, curiosity_gap, novelty
+
+  SOLAR
+    MOVE → ⚪ STABLE fear_loss  (32/100, observed)
+      why: saturation 33% (1 advertisers) · 1 new in 7d
+
+  ⌐ Atlas shifted — 4-tier LLM failover armed (Claude → Groq → OpenAI → Grok); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 11 verticals · wrote data/brief.json + data/brief.md
+[radar-crm] no ENTER windows today — nothing to push (honest quiet)
+(node:3014278) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Telegram: Atlas daily brief sent ✓
+(node:3014290) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+══════ ATLAS CREATIVE CONCEPT · ai_augmented_product_building · 2026-07-11 ══════
+  OPEN WINDOW: authority (30/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Builder's Podium  [owns: credibility]
+  HOOK:    The builders who ship fastest aren't coding more — they're thinking differently.
+  HEAD:    How serious builders leverage AI to lead
+  BODY:    There's a growing gap between builders who use AI as a tool and those who use it as a co-founder. Learn how the latter are setting the standard — and how to position yourself among them.
+  SCENE:   A confident solo founder stands at a minimal standing desk bathed in cool morning light, one hand on a keyboard, a clean dashboard glowing on a large monitor, surrounded by subtle visual cues of shipped products — conveying mastery, not hustle.
+  CTA:     See How They Build
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_augmented_product_building]
+
+══════ ATLAS CREATIVE CONCEPT · ai_film_making_studios · 2026-07-11 ══════
+  OPEN WINDOW: urgency_scarcity (32/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Last Frame Standing  [owns: urgency]
+  HOOK:    Seats are closing. The directors who move first get the room.
+  HEAD:    AI Filmmaking Studio Access — Spots Nearly Gone
+  BODY:    A limited cohort of creators gets hands-on access to our AI film studio pipeline this cycle. When the roster fills, it fills — next window is months out.
+  SCENE:   A filmmaker's hand hovering over a glowing 'CLAIM SEAT' button on a sleek monitor, the studio behind them blurred with cinematic lighting rigs and render screens counting down — one empty chair left at the director's desk.
+  CTA:     Claim Your Spot Now
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_film_making_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_marketing_studios · 2026-07-11 ══════
+  OPEN WINDOW: pain_point (36/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Subscription Trap  [owns: frustration]
+  HOOK:    You're paying a monthly fee just to have a website. That's not a website — that's a rental you'll never own.
+  HEAD:    Stop Renting Your Online Presence
+  BODY:    Every month that platform bill hits, you're funding their business instead of yours. AI-built studio sites are changing what small businesses can own outright — without the recurring invoice.
+  SCENE:   A small business owner stares at a laptop screen showing a recurring billing notification, their expression shifting from stress to relief as a sleek professional website appears beside it — split screen, warm vs. cool lighting.
+  CTA:     See What You Could Own
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_marketing_studios]
+
+══════ ATLAS CREATIVE CONCEPT · auto_insurance · 2026-07-11 ══════
+  OPEN WINDOW: curiosity_gap (30/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Secret Button  [owns: curiosity]
+  HOOK:    There's a part of your auto insurance bill most people never think to question.
+  HEAD:    Why Is This Number Hidden In Your Policy?
+  BODY:    Most drivers pay for coverage they've never actually looked at. Takes 2 minutes to see what's really in yours — and what might not need to be there.
+  SCENE:   An extreme close-up of a car insurance policy document, with one blurred-out line item circled in red ink, sitting on a plain kitchen table next to a cold cup of coffee — ordinary, relatable, slightly unsettling.
+  CTA:     See What's Inside
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[auto_insurance]
+
+══════ ATLAS CREATIVE CONCEPT · debt_finance · 2026-07-11 ══════
+  OPEN WINDOW: authority (37/100, launch_proxy)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Credential Wall  [owns: trust]
+  HOOK:    When debt feels like a maze, the name on the door matters.
+  HEAD:    Rated #1. Reviewed by Thousands. Here for You.
+  BODY:    Over 75,000 people left 5-star reviews for a reason — real guidance, no runaround. See which debt relief options you may qualify for today.
+  SCENE:   A warm, well-lit professional office wall covered in framed accreditations and award plaques, with a confident advisor in the foreground sliding a clear, simple document across a clean desk toward an out-of-frame client — the visual language of earned authority meeting human relief.
+  CTA:     Check My Options
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[debt_finance]
+
+══════ ATLAS CREATIVE CONCEPT · expat_language · 2026-07-11 ══════
+  OPEN WINDOW: social_proof (67/100, observed)
+  grounded in 3 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The First Yes  [owns: relief]
+  HOOK:    She landed in Mexico City not speaking a word of Spanish. 6 weeks later, she negotiated her own lease.
+  HEAD:    Real families. Real moves. Real Spanish.
+  BODY:    Thousands of expat families are using EspaLuz on WhatsApp to navigate life in 21 Spanish-speaking countries — from school enrollment to grocery runs to landlord calls. No classroom. No schedule. Just fluency that fits the chaos of relocating.
+  SCENE:   A warm, candid over-the-shoulder shot of a woman in her late 30s sitting at a sunlit kitchen table in a Latin American apartment — ceramic tiles, potted herbs, afternoon light — holding her phone open to a WhatsApp chat with EspaLuz, smiling at the screen as Spanish text and a voice-note bubble are visible, a half-unpacked moving box just visible in the background.
+  CTA:     Start on WhatsApp — free
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[expat_language]
+
+══════ ATLAS CREATIVE CONCEPT · health_supplements · 2026-07-11 ══════
+  OPEN WINDOW: authority (20/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Practitioner's Short List  [owns: trust]
+  HOOK:    After 20 years in clinical practice, here's what I actually take every morning.
+  HEAD:    A Pharmacist's Honest Supplement Short List
+  BODY:    No sponsorships. No affiliate codes. Just the three supplements a board-certified clinical pharmacist keeps in her own cabinet — and the science she uses to evaluate every label. Watch before you spend another dollar guessing.
+  SCENE:   A female pharmacist in her 50s with warm, confident energy stands at a clean white kitchen counter in soft morning light, holding a small glass of water and glancing down at three supplement bottles arranged neatly in front of her — the scene feels intimate and unscripted, like you walked into her kitchen.
+  CTA:     See Her Short List
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[health_supplements]
+
+══════ ATLAS CREATIVE CONCEPT · medicare_advantage_enrollment · 2026-07-11 ══════
+  OPEN WINDOW: authority (33/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Built By Experts, Built For You  [owns: trust]
+  HOOK:    Most Medicare plans are built by accountants. This one was built by doctors.
+  HEAD:    Coverage Designed Around Your Health
+  BODY:    When specialists, care coordinators, and community health experts shape your plan, you get more than a card in your wallet — you get a system working for you. Free rides, vision benefits, gym access, and $0 premium.
+  SCENE:   A confident, well-dressed senior woman sits across from a warm, attentive physician in a bright modern clinic — the doctor is leaning forward, notepad in hand, fully present — sunlight cuts across the clean white desk between them, conveying expertise and genuine care.
+  CTA:     See What You Qualify For
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[medicare_advantage_enrollment]
+
+══════ ATLAS CREATIVE CONCEPT · personal_ai_companions_on_the_go · 2026-07-11 ══════
+  OPEN WINDOW: transformation (47/100, launch_proxy)
+  grounded in 3 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: The Version of You That Already Exists  [owns: quiet ambition]
+  HOOK:    You already know who you're trying to become. You just haven't had the right conversation yet.
+  HEAD:    Meet the AI that grows with you
+  BODY:    Most apps track your habits. This one learns your patterns, reflects them back, and helps you close the gap between who you are and who you're working toward. One honest conversation at a time.
+  SCENE:   A young woman sits at a rain-streaked window at golden hour, her phone glowing softly in her hands, a subtle double-exposure of her reflection in the glass showing a slightly more confident, composed version of herself looking back.
+  CTA:     Start Your First Conversation Free
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[personal_ai_companions_on_the_go]
+
+══════ ATLAS CREATIVE CONCEPT · solar · 2026-07-11 ══════
+  OPEN WINDOW: fear_loss (32/100, observed)
+  grounded in 1 real ads (Claude (claude-sonnet-4-6) via claude)
+
+  CONCEPT: Last Affordable Sun  [owns: fear_loss]
+  HOOK:    The window to affordable solar is closing — and most homeowners don't know it yet.
+  HEAD:    Today's Solar Prices Won't Wait for You
+  BODY:    Global demand is driving costs up and supply chains tighter. The families locking in solar now are protecting themselves from what's coming — the ones waiting may pay significantly more.
+  SCENE:   A split-screen image: left side shows a bright, open window with golden sunlight flooding in and a solar panel on a roof; right side shows the same window slowly closing, casting the room into shadow — a visual metaphor for a narrowing opportunity.
+  CTA:     Check Your Rate Before It Changes
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[solar]
