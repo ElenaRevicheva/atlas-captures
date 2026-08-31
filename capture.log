@@ -9995,3 +9995,213 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[geo_aeo_tech_seo_makers]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[whatsapp_ai_agents]
+[main 7630e0b] snapshot 2026-08-24
+ 2 files changed, 265 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   488ac79..7630e0b  HEAD -> main
+backup pushed
+=== 2026-08-24T14:14:06Z : done ===
+=== 2026-08-31T14:00:01Z UTC | 2026-08-31 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-08-31 (Panama) · 7 verticals (ai_augmented_product_building, ai_automation, ai_film_making_studios, ai_marketing_studios, fractional_cto, geo_aeo_tech_seo_makers, whatsapp_ai_agents) · 0 rows already today
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 1/1 — no usable HTML
+  [ai_augmented_product_building] no HTML for meta "ai augmented product building" after 1 attempts
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=0 written=0 dupes=0
+  [ai_automation] meta "ai automation agency" attempt 1/1 — no usable HTML
+  [ai_automation] no HTML for meta "ai automation agency" after 1 attempts
+  [ai_automation] google: 2 search ads
+  [ai_automation] found=2 written=2 dupes=0
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+  [ai_film_making_studios] meta-scrape: 5 ads for "ai film making studios"
+  [ai_film_making_studios] google: 0 search ads
+  [ai_film_making_studios] found=5 written=5 dupes=0
+  [ai_marketing_studios] meta "ai marketing studios" attempt 1/1 — no usable HTML
+  [ai_marketing_studios] no HTML for meta "ai marketing studios" after 1 attempts
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=0 written=0 dupes=0
+  [fractional_cto] meta "fractional cto" attempt 1/1 — no usable HTML
+  [fractional_cto] no HTML for meta "fractional cto" after 1 attempts
+  [fractional_cto] google: 0 search ads
+  [fractional_cto] found=0 written=0 dupes=0
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "compare GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] found=0 written=0 dupes=0
+  [whatsapp_ai_agents] meta "whatsapp ai agents" attempt 1/1 — no usable HTML
+  [whatsapp_ai_agents] no HTML for meta "whatsapp ai agents" after 1 attempts
+  [whatsapp_ai_agents] google: 0 search ads
+  [whatsapp_ai_agents] found=0 written=0 dupes=0
+RETRY PASS · 5 vertical(s) wrote 0 today: ai_augmented_product_building, ai_marketing_studios, fractional_cto, geo_aeo_tech_seo_makers, whatsapp_ai_agents
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 1/1 — no usable HTML
+  [ai_augmented_product_building] no HTML for meta "ai augmented product building" after 1 attempts
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] retry found=0 written=0 dupes=0
+  [ai_marketing_studios] meta-scrape: 14 ads for "ai marketing studios"
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] retry found=14 written=13 dupes=1
+  [fractional_cto] meta "fractional cto" attempt 1/1 — no usable HTML
+  [fractional_cto] no HTML for meta "fractional cto" after 1 attempts
+  [fractional_cto] google: 0 search ads
+  [fractional_cto] retry found=0 written=0 dupes=0
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "compare GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] retry found=0 written=0 dupes=0
+  [whatsapp_ai_agents] meta "whatsapp ai agents" attempt 1/1 — no usable HTML
+  [whatsapp_ai_agents] no HTML for meta "whatsapp ai agents" after 1 attempts
+  [whatsapp_ai_agents] google: 1 search ads
+  [whatsapp_ai_agents] retry found=1 written=1 dupes=0
+ATLAS CAPTURE DONE · found=22 written=21 dupes=1 · jsonl=3279 rows (2682KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:776544) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ATLAS CLASSIFY DONE · 3279 ads → 968 angle/day cells · version=v1
+  dates: 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30, 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-04, 2026-07-05, 2026-07-09, 2026-07-10, 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, 2026-07-16, 2026-07-17, 2026-07-20, 2026-07-27, 2026-08-03, 2026-08-10, 2026-08-17, 2026-08-24, 2026-08-31
+  angle distribution: pain_point:911 urgency_scarcity:594 social_proof:560 novelty:399 transformation:370 authority:201 fear_loss:163 curiosity_gap:81
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-08-31 ══════
+
+  AI_AUGMENTED_PRODUCT_BUILDING
+    MOVE → 🟡 WATCH novelty  (60/100, launch_proxy)
+      why: saturation 50% (1 advertisers) · 1 launched ≤30d (100% of lane)
+
+  AI_AUTOMATION
+    MOVE → ⚪ STABLE novelty  (6/100, observed)
+      why: saturation 100% (1 advertisers) · 1 new in 7d
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → ⚪ STABLE authority  (20/100, launch_proxy)
+      why: saturation 50% (1 advertisers)
+
+  AI_MARKETING_STUDIOS
+    MOVE → ⚪ STABLE urgency_scarcity  (32/100, observed)
+      why: saturation 33% (1 advertisers) · 1 new in 7d
+      avoid: pain_point
+
+  AI_RELIABILITY_AND_RESCUE
+    MOVE → 🟡 WATCH urgency_scarcity  (73/100, launch_proxy)
+      why: saturation 17% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: novelty
+
+  AI_VIDEO_GENERATION
+    MOVE → ⚪ STABLE transformation  (35/100, launch_proxy)
+      why: saturation 13% (1 advertisers)
+
+  AUTO_INSURANCE
+    MOVE → ⚪ STABLE social_proof  (33/100, observed)
+      why: saturation 17% (1 advertisers) · 0 new in 7d
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE pain_point  (6/100, observed)
+      why: saturation 100% (10 advertisers) · 1 new in 7d
+
+  EXPAT_LANGUAGE
+    MOVE → 🟡 WATCH social_proof  (54/100, observed)
+      why: saturation 33% (5 advertisers) · 4 new in 7d · adjacent to heating urgency_scarcity (20% co-occurrence)
+      avoid: urgency_scarcity, transformation
+
+  FRACTIONAL_CTO
+    MOVE → ⚪ STABLE novelty  (20/100, observed)
+      why: saturation 50% (1 advertisers) · 0 new in 7d
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE social_proof  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE transformation  (0/100, observed)
+      why: saturation 100% (1 advertisers) · 0 new in 7d
+
+  MEDICARE_ADVANTAGE_ENROLLMENT
+    MOVE → 🟢 ENTER authority  (47/100, observed)
+      why: saturation 22% (2 advertisers) · 1 new in 7d · adjacent to heating pain_point (50% co-occurrence)
+      avoid: pain_point
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → 🟡 WATCH curiosity_gap  (73/100, launch_proxy)
+      why: saturation 17% (1 advertisers) · 1 launched ≤30d (100% of lane)
+      avoid: novelty, social_proof, transformation
+
+  SOLAR
+    MOVE → ⚪ STABLE fear_loss  (30/100, launch_proxy)
+      why: saturation 25% (1 advertisers)
+
+  WHATSAPP_AI_AGENTS
+    MOVE → ⚪ STABLE novelty  (6/100, observed)
+      why: saturation 100% (1 advertisers) · 1 new in 7d
+
+  ⌐ Atlas shifted — 5-tier LLM failover armed (Claude → OpenAI → Gemini → Grok → Groq); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 16 verticals · wrote data/brief.json + data/brief.md
+(node:776668) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[radar-crm] medicare_advantage_enrollment/authority → HTTP 200 deal=62762950937
+  Telegram: Atlas daily brief sent ✓
+(node:776679) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+
+══════ ATLAS CREATIVE CONCEPT · ai_automation · 2026-08-31 ══════
+  OPEN WINDOW: novelty (6/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Automate Your Imagination  [owns: curiosity]
+  HOOK:    What if your ideas could build themselves?
+  HEAD:    Transform Ideas Into Automated Solutions
+  BODY:    Unleash your creativity with our low-code platform. Build applications that automate your workflows and bring your visions to life effortlessly.
+  SCENE:   A vibrant workspace where a diverse group of people are collaborating, surrounded by glowing screens displaying their automated creations coming to life.
+  CTA:     Start Building Today
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_automation]
+
+══════ ATLAS CREATIVE CONCEPT · ai_film_making_studios · 2026-08-31 ══════
+  OPEN WINDOW: authority (20/100, launch_proxy)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: The Healing Lens  [owns: Empowerment]
+  HOOK:    Unlock your story through the art of film.
+  HEAD:    Transform Your Narrative with Film Therapy
+  BODY:    Discover how film can be a powerful tool for healing. Join us to explore your story and find empowerment through cinematic expression.
+  SCENE:   A filmmaker stands in front of a camera, surrounded by vibrant film reels and a backdrop of emotional scenes, exuding confidence and creativity.
+  CTA:     Start Your Journey
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_film_making_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_marketing_studios · 2026-08-31 ══════
+  OPEN WINDOW: urgency_scarcity (32/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: Last Chance to Shine  [owns: urgency]
+  HOOK:    Only a few spots left—don't let your studio miss out!
+  HEAD:    Limited Spots for Local Dance Marketing!
+  BODY:    Transform your dance studio's reach with proven strategies. Act now to fill your classes before it's too late!
+  SCENE:   A vibrant dance studio filled with eager students, with a countdown timer overlay emphasizing urgency.
+  CTA:     Claim Your Spot Now!
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_marketing_studios]
+
+══════ ATLAS CREATIVE CONCEPT · whatsapp_ai_agents · 2026-08-31 ══════
+  OPEN WINDOW: novelty (6/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via openai)
+
+  CONCEPT: ChatGPT Companion  [owns: curiosity]
+  HOOK:    Meet your new AI buddy—always ready to chat!
+  HEAD:    Unlock Conversations Like Never Before
+  BODY:    Imagine an AI that not only understands you but also engages in meaningful conversations. Discover the future of chat with our innovative WhatsApp AI agent!
+  SCENE:   A vibrant, futuristic setting where a person is joyfully interacting with a holographic AI companion, showcasing a seamless blend of technology and human connection.
+  CTA:     Start Chatting Today
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[whatsapp_ai_agents]
