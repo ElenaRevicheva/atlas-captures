@@ -10436,3 +10436,95 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[geo_aeo_tech_seo_makers]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[whatsapp_ai_agents]
+[main 505d86d] snapshot 2026-09-07
+ 2 files changed, 256 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   bad167c..505d86d  HEAD -> main
+backup pushed
+=== 2026-09-07T14:11:00Z : done ===
+=== 2026-09-14T14:00:01Z UTC | 2026-09-14 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-09-14 (Panama) · 7 verticals (ai_augmented_product_building, ai_automation, ai_film_making_studios, ai_marketing_studios, fractional_cto, geo_aeo_tech_seo_makers, whatsapp_ai_agents) · 0 rows already today
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 1/1 — no usable HTML
+  [ai_augmented_product_building] no HTML for meta "ai augmented product building" after 1 attempts
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=0 written=0 dupes=0
+  [ai_automation] meta "ai automation agency" attempt 1/1 — no usable HTML
+  [ai_automation] no HTML for meta "ai automation agency" after 1 attempts
+  [ai_automation] google: 0 search ads
+  [ai_automation] found=0 written=0 dupes=0
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+[llm] OpenAI text 429: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+  [ai_film_making_studios] meta-scrape: 11 ads for "ai film making studios"
+  [ai_film_making_studios] google: 0 search ads
+  [ai_film_making_studios] found=9 written=5 dupes=4
+  [ai_marketing_studios] meta "ai marketing studios" attempt 1/1 — no usable HTML
+  [ai_marketing_studios] no HTML for meta "ai marketing studios" after 1 attempts
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=0 written=0 dupes=0
+  [fractional_cto] meta "fractional cto" attempt 1/1 — no usable HTML
+  [fractional_cto] no HTML for meta "fractional cto" after 1 attempts
+  [fractional_cto] google: 0 search ads
+  [fractional_cto] found=0 written=0 dupes=0
+[llm] OpenAI text 429: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+  [geo_aeo_tech_seo_makers] meta-scrape: 0 ads for "GEO/AEO/Tech SEO makers"
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "compare GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] found=0 written=0 dupes=0
+  [whatsapp_ai_agents] meta "whatsapp ai agents" attempt 1/1 — no usable HTML
+  [whatsapp_ai_agents] no HTML for meta "whatsapp ai agents" after 1 attempts
+  [whatsapp_ai_agents] google: 0 search ads
+  [whatsapp_ai_agents] found=0 written=0 dupes=0
+RETRY PASS · 6 vertical(s) wrote 0 today: ai_augmented_product_building, ai_automation, ai_marketing_studios, fractional_cto, geo_aeo_tech_seo_makers, whatsapp_ai_agents
+[llm] OpenAI text 429: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+  [ai_augmented_product_building] meta-scrape: 5 ads for "ai augmented product building"
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] retry found=5 written=5 dupes=0
+[llm] OpenAI text 429: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+  [ai_automation] meta-scrape: 0 ads for "ai automation agency"
+  [ai_automation] google: 2 search ads
+  [ai_automation] retry found=2 written=2 dupes=0
+  [ai_marketing_studios] meta "ai marketing studios" attempt 1/1 — no usable HTML
+  [ai_marketing_studios] no HTML for meta "ai marketing studios" after 1 attempts
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] retry found=0 written=0 dupes=0
+  [fractional_cto] meta "fractional cto" attempt 1/1 — no usable HTML
+  [fractional_cto] no HTML for meta "fractional cto" after 1 attempts
+  [fractional_cto] google: 0 search ads
+  [fractional_cto] retry found=0 written=0 dupes=0
+  [geo_aeo_tech_seo_makers] meta "GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "compare GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] google: 0 search ads
+  [geo_aeo_tech_seo_makers] retry found=0 written=0 dupes=0
+  [whatsapp_ai_agents] meta "whatsapp ai agents" attempt 1/1 — no usable HTML
+  [whatsapp_ai_agents] no HTML for meta "whatsapp ai agents" after 1 attempts
+  [whatsapp_ai_agents] google: 0 search ads
+  [whatsapp_ai_agents] retry found=0 written=0 dupes=0
+ATLAS CAPTURE DONE · found=16 written=12 dupes=4 · jsonl=3316 rows (2714KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:533965) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] embeddings 429 (attempt 1/3), retrying: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+[llm] embeddings 429 (attempt 2/3), retrying: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+[llm] embeddings 429: {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://pla
+Error: failed to embed captured ads (OpenAI embeddings unavailable)
+    at main (file:///home/ubuntu/whitespace/dist/classify.js:118:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+ALERT: classify.js FAILED — radar.sqlite NOT rebuilt, dashboard still shows the previous day's data. Skipping brief/concept this run.
+{"ok":true,"result":{"message_id":5616,"from":{"id":7475936238,"is_bot":true,"first_name":"AI_TCF_AIdeazz","username":"aitcf_aideazz_bot"},"chat":{"id":5481526862,"first_name":"Elena","last_name":"Revicheva","username":"ElenaRevicheva","type":"private"},"date":1789395024,"text":"\u26a0\ufe0f Atlas cron: classify.js FAILED \u2014 radar.sqlite NOT rebuilt, dashboard still shows the previous day's data. Skipping brief/concept this run."}}
