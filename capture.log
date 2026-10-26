@@ -11666,3 +11666,315 @@ ATLAS CONCEPT DONE · wrote data/concepts.json[ai_automation]
 
   → producer_brief written for Atuona (image_prompt + scene + caption)
 ATLAS CONCEPT DONE · wrote data/concepts.json[fractional_cto]
+[main 416344f] snapshot 2026-10-19
+ 2 files changed, 227 insertions(+)
+To https://github.com/ElenaRevicheva/atlas-captures.git
+   e42fb76..416344f  HEAD -> main
+backup pushed
+=== 2026-10-19T14:14:50Z : done ===
+=== 2026-10-26T14:00:01Z UTC | 2026-10-26 Panama : start ===
+ATLAS CAPTURE · snapshot_date=2026-10-26 (Panama) · 8 verticals (ai_augmented_product_building, ai_automation, ai_film_making_studios, ai_marketing_studios, ai_video_generation, fractional_cto, geo_aeo_tech_seo_makers, whatsapp_ai_agents) · 0 rows already today
+[bd-adlib] "ai augmented product building" US: 0 live, on-topic ads of 2 rows in 293 s
+[bd-browser] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+[bd] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20augmented%20product%20building&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+  [ai_augmented_product_building] meta "ai augmented product building" attempt 1/1 — no usable HTML
+  [ai_augmented_product_building] no HTML for meta "ai augmented product building" after 1 attempts
+[bd-serp-ads] error "compare ai augmented product building": The operation was aborted due to timeout
+[bd-serp-ads] error "compare ai augmented product building": The operation was aborted due to timeout
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] found=0 written=0 dupes=0
+[bd-adlib] "ai automation agency" US: no rows after 353 s (sd_mvpbxuub12x5h987nj — finishing in the background)
+[bd-browser] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20automation%20agency&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+[bd] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=ai%20automation%20agency&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+  [ai_automation] meta "ai automation agency" attempt 1/1 — no usable HTML
+  [ai_automation] no HTML for meta "ai automation agency" after 1 attempts
+[bd-serp-ads] error "compare ai automation agency": The operation was aborted due to timeout
+  [ai_automation] google: 0 search ads
+  [ai_automation] found=0 written=0 dupes=0
+[bd-adlib] "ai film making studios" US: 2 live, on-topic ads of 30 rows in 91 s
+  [ai_film_making_studios] meta-adlib: 2 ads for "ai film making studios"
+[bd-serp-ads] error "compare ai film making studios": The operation was aborted due to timeout
+  [ai_film_making_studios] google: 0 search ads
+  [ai_film_making_studios] found=2 written=2 dupes=0
+[bd-adlib] background "ai automation agency" US: 30 rows after 715 s (sd_mvpbxuub12x5h987nj)
+[bd-adlib] "ai marketing studios" US: 23 live, on-topic ads of 30 rows in 213 s
+  [ai_marketing_studios] meta-adlib: 23 ads for "ai marketing studios"
+[bd-serp-ads] error "compare ai marketing studios": The operation was aborted due to timeout
+[bd-serp-ads] error "compare ai marketing studios": The operation was aborted due to timeout
+[bd-serp-ads] error "compare ai marketing studios": The operation was aborted due to timeout
+  [ai_marketing_studios] google: 0 search ads
+  [ai_marketing_studios] found=23 written=11 dupes=12
+[bd-adlib] "ai video generation" US: 29 live, on-topic ads of 31 rows in 313 s
+  [ai_video_generation] meta-adlib: 29 ads for "ai video generation"
+  [ai_video_generation] google: 2 search ads
+  [ai_video_generation] found=31 written=25 dupes=6
+[bd-adlib] "fractional cto" US: no rows after 353 s (sd_mvpcokgbos7ux4xmr — finishing in the background)
+[bd-browser] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=fractional%20cto&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+[bd] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=fractional%20cto&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+  [fractional_cto] meta "fractional cto" attempt 1/1 — no usable HTML
+  [fractional_cto] no HTML for meta "fractional cto" after 1 attempts
+  [fractional_cto] google: 2 search ads
+  [fractional_cto] found=2 written=2 dupes=0
+[bd-adlib] "AI SEO" US: no rows after 353 s (sd_mvpcwtggjjbmc54gn — finishing in the background)
+[bd-browser] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=AI%20SEO&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+[bd] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=AI%20SEO&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+  [geo_aeo_tech_seo_makers] meta "AI SEO" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "AI SEO" after 1 attempts
+[bd-adlib] background "fractional cto" US: 30 rows after 836 s (sd_mvpcokgbos7ux4xmr)
+[bd-adlib] "compare GEO/AEO/Tech SEO makers" US: 0 live, on-topic ads of 1 rows in 262 s
+[bd-browser] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+[bd] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=compare%20GEO%2FAEO%2FTech%20SEO%20makers&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+  [geo_aeo_tech_seo_makers] meta "compare GEO/AEO/Tech SEO makers" attempt 1/1 — no usable HTML
+  [geo_aeo_tech_seo_makers] no HTML for meta "compare GEO/AEO/Tech SEO makers" after 1 attempts
+  [geo_aeo_tech_seo_makers] google: 2 search ads
+  [geo_aeo_tech_seo_makers] found=2 written=2 dupes=0
+[bd-adlib] background "AI SEO" US: 30 rows after 730 s (sd_mvpcwtggjjbmc54gn)
+[bd-adlib] "whatsapp ai agents" US: no rows after 353 s (sd_mvpdai0016os5rlspt — finishing in the background)
+[bd-browser] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=whatsapp%20ai%20agents&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+[bd] https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&q=whatsapp%20ai%20agents&search_type=keyword_unordered → empty body: Forbidden: Access to this site is restricted on the selected network type due to compliance policies. Please try switching to a different ne
+  [whatsapp_ai_agents] meta "whatsapp ai agents" attempt 1/1 — no usable HTML
+  [whatsapp_ai_agents] no HTML for meta "whatsapp ai agents" after 1 attempts
+[bd-serp-ads] error "compare whatsapp ai agents": The operation was aborted due to timeout
+  [whatsapp_ai_agents] google: 0 search ads
+  [whatsapp_ai_agents] found=0 written=0 dupes=0
+RETRY PASS · 3 vertical(s) wrote 0 today: ai_augmented_product_building, ai_automation, whatsapp_ai_agents
+[bd-adlib] "ai augmented product building" US: 0 live, on-topic ads of 2 rows (collected < 24 h ago)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+  [ai_augmented_product_building] meta-scrape: 2 ads for "ai augmented product building"
+  [ai_augmented_product_building] google: 0 search ads
+  [ai_augmented_product_building] retry found=2 written=2 dupes=0
+[bd-adlib] "ai automation agency" US: 28 live, on-topic ads of 30 rows (collected < 24 h ago)
+  [ai_automation] meta-adlib: 28 ads for "ai automation agency"
+[bd-serp-ads] error "compare ai automation agency": The operation was aborted due to timeout
+  [ai_automation] google: 6 search ads
+  [ai_automation] retry found=34 written=18 dupes=16
+[bd-adlib] "whatsapp ai agents" US: 4 live, on-topic ads of 30 rows in 192 s
+  [whatsapp_ai_agents] meta-adlib: 4 ads for "whatsapp ai agents"
+[bd-adlib] background "whatsapp ai agents" US: 30 rows after 684 s (sd_mvpdai0016os5rlspt)
+[bd-serp-ads] error "compare whatsapp ai agents": The operation was aborted due to timeout
+  [whatsapp_ai_agents] google: 0 search ads
+  [whatsapp_ai_agents] retry found=4 written=4 dupes=0
+ATLAS CAPTURE DONE · found=100 written=66 dupes=34 · jsonl=3585 rows (2982KB) · /home/ubuntu/whitespace/data/captures.jsonl
+(node:1013294) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] Gemini embeddings quota exhausted (429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai
+[llm] OpenAI embeddings quota exhausted (429): {
+    "error": {
+        "message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "
+[llm] OpenAI embeddings quota exhausted — failing over to Gemini
+[classify] embeddings unavailable — lexical prototype-overlap fallback
+ATLAS CLASSIFY DONE · 3585 ads → 1174 angle/day cells · version=v1-lexical
+  dates: 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30, 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-04, 2026-07-05, 2026-07-09, 2026-07-10, 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, 2026-07-16, 2026-07-17, 2026-07-20, 2026-07-27, 2026-08-03, 2026-08-10, 2026-08-17, 2026-08-24, 2026-08-31, 2026-09-07, 2026-09-14, 2026-09-28, 2026-10-05, 2026-10-12, 2026-10-19, 2026-10-26
+  angle distribution: pain_point:1517 transformation:691 fear_loss:506 curiosity_gap:252 novelty:227 social_proof:213 authority:103 urgency_scarcity:76
+  sqlite: /home/ubuntu/whitespace/data/radar.sqlite
+
+══════ ATLAS DAILY BRIEF · 2026-10-26 ══════
+
+  AI_AUGMENTED_PRODUCT_BUILDING
+    MOVE → ⚪ STABLE authority  (0/100, observed)
+      why: saturation 100% (1 advertisers) · 0 new in 7d
+
+  AI_AUTOMATION
+    MOVE → 🟡 WATCH transformation  (93/100, launch_proxy)
+      why: saturation 17% (1 advertisers) · 1 launched ≤30d (100% of lane) · adjacent to heating pain_point (100% co-occurrence)
+      avoid: pain_point
+
+  AI_FILM_MAKING_STUDIOS
+    MOVE → ⚪ STABLE pain_point  (0/100, launch_proxy)
+      why: saturation 100% (1 advertisers)
+
+  AI_MARKETING_STUDIOS
+    MOVE → ⚪ STABLE transformation  (20/100, launch_proxy)
+      why: saturation 50% (1 advertisers)
+      avoid: curiosity_gap, pain_point, fear_loss
+
+  AI_RELIABILITY_AND_RESCUE
+    MOVE → 🟡 WATCH authority  (51/100, launch_proxy)
+      why: saturation 22% (2 advertisers) · 1 launched ≤30d (50% of lane)
+      avoid: pain_point
+
+  AI_VIDEO_GENERATION
+    MOVE → ⚪ STABLE authority  (30/100, launch_proxy)
+      why: saturation 25% (1 advertisers)
+      avoid: novelty, transformation, curiosity_gap, fear_loss
+
+  AUTO_INSURANCE
+    MOVE → ⚪ STABLE curiosity_gap  (30/100, saturation_only)
+      why: saturation 25% (1 advertisers)
+
+  DEBT_FINANCE
+    MOVE → ⚪ STABLE authority  (30/100, observed)
+      why: saturation 25% (1 advertisers) · 0 new in 7d
+
+  EXPAT_LANGUAGE
+    MOVE → 🟢 ENTER fear_loss  (53/100, observed)
+      why: saturation 14% (3 advertisers) · 2 new in 7d · adjacent to heating transformation (33% co-occurrence)
+      avoid: pain_point
+
+  FRACTIONAL_CTO
+    MOVE → ⚪ STABLE pain_point  (11/100, observed)
+      why: saturation 100% (2 advertisers) · 2 new in 7d
+
+  GEO_AEO_TECH_SEO_MAKERS
+    MOVE → ⚪ STABLE authority  (0/100, saturation_only)
+      why: saturation 100% (1 advertisers)
+
+  HEALTH_SUPPLEMENTS
+    MOVE → ⚪ STABLE transformation  (0/100, launch_proxy)
+      why: saturation 100% (1 advertisers)
+
+  MEDICARE_ADVANTAGE_ENROLLMENT
+    MOVE → ⚪ STABLE social_proof  (38/100, observed)
+      why: saturation 20% (1 advertisers) · 1 new in 7d
+
+  PERSONAL_AI_COMPANIONS_ON_THE_GO
+    MOVE → 🟡 WATCH urgency_scarcity  (96/100, launch_proxy)
+      why: saturation 11% (1 advertisers) · 1 launched ≤30d (100% of lane) · adjacent to heating pain_point (100% co-occurrence)
+      avoid: pain_point
+
+  SOLAR
+    MOVE → ⚪ STABLE social_proof  (41/100, observed)
+      why: saturation 25% (2 advertisers) · 2 new in 7d
+      avoid: pain_point
+
+  WHATSAPP_AI_AGENTS
+    MOVE → 🔴 AVOID pain_point  (40/100, launch_proxy)
+      why: saturation 100% (4 advertisers) · 4 launched ≤30d (100% of lane)
+      avoid: pain_point
+
+  ⌐ Atlas shifted — 5-tier LLM failover armed (Claude → OpenAI → Gemini → Grok → Groq); a single provider going dark can't stop the brief.
+
+ATLAS BRIEF DONE · 16 verticals · wrote data/brief.json + data/brief.md
+(node:1013480) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[radar-crm] expat_language/fear_loss → HTTP 200 deal=65042489093
+  Telegram: Atlas daily brief sent ✓
+(node:1013491) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[llm] Claude tripped circuit breaker (credit/billing) — skipping it for this process.
+[llm] Claude text failed: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go
+
+══════ ATLAS CREATIVE CONCEPT · ai_augmented_product_building · 2026-10-26 ══════
+  OPEN WINDOW: authority (0/100, observed)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: AI Product Authority Blueprint  [owns: Trust]
+  HOOK:    See how leading product teams are integrating AI, not just talking about it.
+  HEAD:    The AI Product Playbook: What Top Teams Are Doing
+  BODY:    We've analyzed the strategies of successful AI-augmented products to distill actionable insights. Discover the frameworks and methodologies driving real-world results.
+  SCENE:   A sleek, modern dashboard displaying interconnected data points and a subtle AI neural network overlay, with a confident product leader gesturing towards it.
+  CTA:     Get the Blueprint
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_augmented_product_building]
+
+══════ ATLAS CREATIVE CONCEPT · ai_automation · 2026-10-26 ══════
+  OPEN WINDOW: transformation (93/100, launch_proxy) · adjacent to heating pain_point
+  grounded in 4 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: AI That Works For You  [owns: Empowerment]
+  HOOK:    Imagine your agency, but smarter. Not just 'AI,' but a digital employee.
+  HEAD:    Your Agency's New AI Employee: Ready to Work.
+  BODY:    Stop chasing shiny AI tools. Get practical AI that handles real tasks, freeing your team to focus on growth, not grunt work. This isn't about complex setups; it's about immediate, tangible impact.
+  SCENE:   A sleek, minimalist office setting where a human agency owner is calmly reviewing reports on a tablet, while in the background, a subtle, glowing digital interface (representing AI) is seamlessly managing tasks on a large screen.
+  CTA:     See AI in Action
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_automation]
+
+══════ ATLAS CREATIVE CONCEPT · ai_film_making_studios · 2026-10-26 ══════
+  OPEN WINDOW: pain_point (0/100, launch_proxy)
+  grounded in 2 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: AI Film Frustration  [owns: frustration]
+  HOOK:    Stuck trying to make AI films that actually look good?
+  HEAD:    Your AI Film Vision, Finally Realized.
+  BODY:    You've seen the potential, but getting your AI film ideas off the ground feels like hitting a wall. We'll show you the exact techniques to move past the frustration and create compelling short films.
+  SCENE:   A person looking intently at a computer screen, surrounded by scattered notes and half-finished AI-generated images, with a slightly exasperated but determined expression.
+  CTA:     Unlock Your AI Film Skills
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_film_making_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_marketing_studios · 2026-10-26 ══════
+  OPEN WINDOW: transformation (20/100, launch_proxy)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: AI Marketing Metamorphosis  [owns: Empowerment]
+  HOOK:    Tired of AI tools that promise the moon but deliver crickets?
+  HEAD:    Unlock Your AI Marketing's True Potential
+  BODY:    See how other businesses are transforming their AI marketing efforts from 'meh' to 'money-making'. We'll show you the proven frameworks.
+  SCENE:   A split screen showing a frustrated marketer looking at a complex, tangled AI dashboard on one side, and on the other, the same marketer confidently reviewing a clean, results-driven dashboard with clear metrics.
+  CTA:     See How It Works
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_marketing_studios]
+
+══════ ATLAS CREATIVE CONCEPT · ai_video_generation · 2026-10-26 ══════
+  OPEN WINDOW: authority (30/100, launch_proxy)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: The AI Video Authority  [owns: Confidence]
+  HOOK:    Stop guessing. Start leading.
+  HEAD:    Master AI Video: The Definitive Guide for Pros.
+  BODY:    Elevate your video strategy with insights from industry leaders. Discover the proven techniques and tools shaping the future of AI video generation.
+  SCENE:   A split screen: one side shows a chaotic, overwhelmed creator, the other shows a calm, focused expert using a sleek AI video interface.
+  CTA:     Claim Your Authority
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[ai_video_generation]
+
+══════ ATLAS CREATIVE CONCEPT · fractional_cto · 2026-10-26 ══════
+  OPEN WINDOW: pain_point (11/100, observed)
+  grounded in 2 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: Tech Strategy Drift  [owns: Frustration]
+  HOOK:    Is your tech strategy drifting without a clear captain?
+  HEAD:    Stop Drifting: Get a Fractional CTO
+  BODY:    Without senior tech leadership, critical decisions stall and opportunities are missed. Our Fractional CTOs provide the strategic direction and execution oversight you need, on your terms.
+  SCENE:   A small, modern sailboat on a calm but vast ocean, with no one visibly at the helm, subtly implying a lack of direction. The sun is setting, casting long shadows.
+  CTA:     Get Tech Leadership
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[fractional_cto]
+
+══════ ATLAS CREATIVE CONCEPT · geo_aeo_tech_seo_makers · 2026-10-26 ══════
+  OPEN WINDOW: authority (0/100, saturation_only)
+  grounded in 1 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: The SEO Architect's Blueprint  [owns: Confidence]
+  HOOK:    Stop guessing. Start leading.
+  HEAD:    Build Your SEO Authority, Backed by Data.
+  BODY:    Join the ranks of 1.5M+ SEO professionals who trust SE Ranking to elevate their strategy. Our platform provides the insights you need to confidently dominate your niche.
+  SCENE:   A confident SEO professional, looking over a complex but clearly organized digital dashboard, with a blueprint overlay suggesting strategic planning.
+  CTA:     Claim Your Blueprint
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[geo_aeo_tech_seo_makers]
+
+══════ ATLAS CREATIVE CONCEPT · whatsapp_ai_agents · 2026-10-26 ══════
+  OPEN WINDOW: pain_point (40/100, launch_proxy)
+  grounded in 3 real ads (OpenAI (gpt-4o-mini) via gemini)
+
+  CONCEPT: Missed Lead Meltdown  [owns: Frustration]
+  HOOK:    Still losing leads to slow WhatsApp replies?
+  HEAD:    Stop the Lead Leak: Automate WhatsApp AI Agents
+  BODY:    Your next big client won't wait. Our AI agents ensure instant, personalized responses on WhatsApp, qualifying leads and booking appointments 24/7. Reclaim lost opportunities and boost your sales pipeline.
+  SCENE:   A business owner looking stressed at a phone with multiple unread WhatsApp messages, overlaid with a subtle 'leak' animation of leads slipping away.
+  CTA:     Stop Losing Leads
+  MUTATIONS: 3 hook variants for A/B testing
+
+  → producer_brief written for Atuona (image_prompt + scene + caption)
+ATLAS CONCEPT DONE · wrote data/concepts.json[whatsapp_ai_agents]
